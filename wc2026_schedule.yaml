@@ -1,0 +1,1294 @@
+# 2026 FIFA World Cup — Match Schedule
+# Sources:
+#   - Wikipedia: 2026 FIFA World Cup (groups, stadiums)
+#   - Sky Sports day-by-day fixtures article (kickoff times in UK/BST, venues by city)
+# Notes:
+#   - kickoff_uk is in UK time (BST applies in June–July). Times taken verbatim from Sky Sports.
+#   - kickoff_local is null because the Sky Sports source listed only UK times.
+#   - For knockout matches where teams are not yet determined, placeholders are used.
+#   - Stadium names use the FIFA-branded names from the Wikipedia "List of tournament venues" table.
+
+tournament:
+  name: 2026 FIFA World Cup
+  hosts: [United States, Canada, Mexico]
+  start_date: 2026-06-11
+  end_date: 2026-07-19
+  total_matches: 104
+  total_teams: 48
+
+groups:
+  A: [Mexico, South Africa, South Korea, Czech Republic]
+  B: [Canada, Bosnia and Herzegovina, Qatar, Switzerland]
+  C: [Brazil, Morocco, Haiti, Scotland]
+  D: [United States, Paraguay, Australia, Turkey]
+  E: [Germany, Curacao, Ivory Coast, Ecuador]
+  F: [Netherlands, Japan, Sweden, Tunisia]
+  G: [Belgium, Egypt, Iran, New Zealand]
+  H: [Spain, Cape Verde, Saudi Arabia, Uruguay]
+  I: [France, Senegal, Iraq, Norway]
+  J: [Argentina, Algeria, Austria, Jordan]
+  K: [Portugal, DR Congo, Uzbekistan, Colombia]
+  L: [England, Croatia, Ghana, Panama]
+
+stadiums:
+  - city: Arlington, Texas
+    metro: Dallas
+    country: USA
+    fifa_name: Dallas Stadium
+    sponsor_name: AT&T Stadium
+    capacity: 94000
+    indoor: true
+  - city: Mexico City
+    country: Mexico
+    fifa_name: Estadio Azteca
+    sponsor_name: Estadio Banorte
+    notes: "Wikipedia table lists FIFA-branded name as 'Mexico City Stadium'; the venue itself is historically Estadio Azteca. Sky Sports refers to it simply as Mexico City."
+    capacity: 83000
+    indoor: false
+  - city: East Rutherford, New Jersey
+    metro: New York/New Jersey
+    country: USA
+    fifa_name: New York New Jersey Stadium
+    sponsor_name: MetLife Stadium
+    capacity: 82500
+    indoor: false
+  - city: Atlanta
+    country: USA
+    fifa_name: Atlanta Stadium
+    sponsor_name: Mercedes-Benz Stadium
+    capacity: 75000
+    indoor: true
+  - city: Kansas City
+    country: USA
+    fifa_name: Kansas City Stadium
+    sponsor_name: GEHA Field at Arrowhead Stadium
+    capacity: 73000
+    indoor: false
+  - city: Houston
+    country: USA
+    fifa_name: Houston Stadium
+    sponsor_name: NRG Stadium
+    capacity: 72000
+    indoor: true
+  - city: Santa Clara, California
+    metro: San Francisco Bay Area
+    country: USA
+    fifa_name: San Francisco Bay Area Stadium
+    sponsor_name: Levi's Stadium
+    capacity: 71000
+    indoor: false
+  - city: Inglewood, California
+    metro: Los Angeles
+    country: USA
+    fifa_name: Los Angeles Stadium
+    sponsor_name: SoFi Stadium
+    capacity: 70000
+    indoor: false
+  - city: Philadelphia
+    country: USA
+    fifa_name: Philadelphia Stadium
+    sponsor_name: Lincoln Financial Field
+    capacity: 69000
+    indoor: false
+  - city: Seattle
+    country: USA
+    fifa_name: Seattle Stadium
+    sponsor_name: Lumen Field
+    capacity: 69000
+    indoor: false
+  - city: Foxborough, Massachusetts
+    metro: Boston
+    country: USA
+    fifa_name: Boston Stadium
+    sponsor_name: Gillette Stadium
+    capacity: 65000
+    indoor: false
+  - city: Miami Gardens, Florida
+    metro: Miami
+    country: USA
+    fifa_name: Miami Stadium
+    sponsor_name: Hard Rock Stadium
+    capacity: 65000
+    indoor: false
+  - city: Vancouver
+    country: Canada
+    fifa_name: BC Place Vancouver
+    sponsor_name: BC Place
+    capacity: 54000
+    indoor: true
+  - city: Guadalupe
+    metro: Monterrey
+    country: Mexico
+    fifa_name: Estadio Monterrey
+    sponsor_name: Estadio BBVA
+    capacity: 53500
+    indoor: false
+  - city: Zapopan
+    metro: Guadalajara
+    country: Mexico
+    fifa_name: Estadio Guadalajara
+    sponsor_name: Estadio Akron
+    capacity: 48000
+    indoor: false
+  - city: Toronto
+    country: Canada
+    fifa_name: Toronto Stadium
+    sponsor_name: BMO Field
+    capacity: 45000
+    indoor: false
+
+# -----------------------------------------------------------------------------
+# MATCHES
+# -----------------------------------------------------------------------------
+# match_id is a stable sequential ID (M01..M104) ordered by date then by kickoff_uk.
+# For knockout matches, the knockout_match_no field gives the official FIFA match
+# number used in the Sky Sports source (R32 = 73-88, R16 = 89-96, QF = 97-100,
+# SF = 101-102, 3rd-place = 103, Final = 104).
+# -----------------------------------------------------------------------------
+
+matches:
+  # ===== Thursday, June 11 =====
+  - match_id: M01
+    stage: group
+    group: A
+    date: 2026-06-11
+    kickoff_uk: "20:00"
+    kickoff_local: null
+    venue_city: Mexico City
+    venue_stadium: Estadio Azteca
+    home_team: Mexico
+    away_team: South Africa
+
+  # ===== Friday, June 12 =====
+  - match_id: M02
+    stage: group
+    group: A
+    date: 2026-06-12
+    kickoff_uk: "03:00"
+    kickoff_local: null
+    venue_city: Zapopan
+    venue_stadium: Estadio Guadalajara
+    home_team: South Korea
+    away_team: Czech Republic
+  - match_id: M03
+    stage: group
+    group: B
+    date: 2026-06-12
+    kickoff_uk: "20:00"
+    kickoff_local: null
+    venue_city: Toronto
+    venue_stadium: Toronto Stadium
+    home_team: Canada
+    away_team: Bosnia and Herzegovina
+
+  # ===== Saturday, June 13 =====
+  - match_id: M04
+    stage: group
+    group: D
+    date: 2026-06-13
+    kickoff_uk: "02:00"
+    kickoff_local: null
+    venue_city: Inglewood, California
+    venue_stadium: Los Angeles Stadium
+    home_team: United States
+    away_team: Paraguay
+  - match_id: M05
+    stage: group
+    group: B
+    date: 2026-06-13
+    kickoff_uk: "20:00"
+    kickoff_local: null
+    venue_city: Santa Clara, California
+    venue_stadium: San Francisco Bay Area Stadium
+    home_team: Qatar
+    away_team: Switzerland
+  - match_id: M06
+    stage: group
+    group: C
+    date: 2026-06-13
+    kickoff_uk: "23:00"
+    kickoff_local: null
+    venue_city: East Rutherford, New Jersey
+    venue_stadium: New York New Jersey Stadium
+    home_team: Brazil
+    away_team: Morocco
+
+  # ===== Sunday, June 14 =====
+  - match_id: M07
+    stage: group
+    group: C
+    date: 2026-06-14
+    kickoff_uk: "02:00"
+    kickoff_local: null
+    venue_city: Foxborough, Massachusetts
+    venue_stadium: Boston Stadium
+    home_team: Haiti
+    away_team: Scotland
+  - match_id: M08
+    stage: group
+    group: D
+    date: 2026-06-14
+    kickoff_uk: "05:00"
+    kickoff_local: null
+    venue_city: Vancouver
+    venue_stadium: BC Place Vancouver
+    home_team: Australia
+    away_team: Turkey
+  - match_id: M09
+    stage: group
+    group: E
+    date: 2026-06-14
+    kickoff_uk: "18:00"
+    kickoff_local: null
+    venue_city: Houston
+    venue_stadium: Houston Stadium
+    home_team: Germany
+    away_team: Curacao
+  - match_id: M10
+    stage: group
+    group: F
+    date: 2026-06-14
+    kickoff_uk: "21:00"
+    kickoff_local: null
+    venue_city: Arlington, Texas
+    venue_stadium: Dallas Stadium
+    home_team: Netherlands
+    away_team: Japan
+
+  # ===== Monday, June 15 =====
+  - match_id: M11
+    stage: group
+    group: E
+    date: 2026-06-15
+    kickoff_uk: "00:00"
+    kickoff_local: null
+    venue_city: Philadelphia
+    venue_stadium: Philadelphia Stadium
+    home_team: Ivory Coast
+    away_team: Ecuador
+  - match_id: M12
+    stage: group
+    group: F
+    date: 2026-06-15
+    kickoff_uk: "03:00"
+    kickoff_local: null
+    venue_city: Guadalupe
+    venue_stadium: Estadio Monterrey
+    home_team: Sweden
+    away_team: Tunisia
+  - match_id: M13
+    stage: group
+    group: H
+    date: 2026-06-15
+    kickoff_uk: "17:00"
+    kickoff_local: null
+    venue_city: Atlanta
+    venue_stadium: Atlanta Stadium
+    home_team: Spain
+    away_team: Cape Verde
+  - match_id: M14
+    stage: group
+    group: G
+    date: 2026-06-15
+    kickoff_uk: "20:00"
+    kickoff_local: null
+    venue_city: Seattle
+    venue_stadium: Seattle Stadium
+    home_team: Belgium
+    away_team: Egypt
+  - match_id: M15
+    stage: group
+    group: H
+    date: 2026-06-15
+    kickoff_uk: "23:00"
+    kickoff_local: null
+    venue_city: Miami Gardens, Florida
+    venue_stadium: Miami Stadium
+    home_team: Saudi Arabia
+    away_team: Uruguay
+
+  # ===== Tuesday, June 16 =====
+  - match_id: M16
+    stage: group
+    group: G
+    date: 2026-06-16
+    kickoff_uk: "02:00"
+    kickoff_local: null
+    venue_city: Inglewood, California
+    venue_stadium: Los Angeles Stadium
+    home_team: Iran
+    away_team: New Zealand
+  - match_id: M17
+    stage: group
+    group: I
+    date: 2026-06-16
+    kickoff_uk: "20:00"
+    kickoff_local: null
+    venue_city: East Rutherford, New Jersey
+    venue_stadium: New York New Jersey Stadium
+    home_team: France
+    away_team: Senegal
+  - match_id: M18
+    stage: group
+    group: I
+    date: 2026-06-16
+    kickoff_uk: "23:00"
+    kickoff_local: null
+    venue_city: Foxborough, Massachusetts
+    venue_stadium: Boston Stadium
+    home_team: Iraq
+    away_team: Norway
+
+  # ===== Wednesday, June 17 =====
+  - match_id: M19
+    stage: group
+    group: J
+    date: 2026-06-17
+    kickoff_uk: "02:00"
+    kickoff_local: null
+    venue_city: Kansas City
+    venue_stadium: Kansas City Stadium
+    home_team: Argentina
+    away_team: Algeria
+  - match_id: M20
+    stage: group
+    group: J
+    date: 2026-06-17
+    kickoff_uk: "05:00"
+    kickoff_local: null
+    venue_city: Santa Clara, California
+    venue_stadium: San Francisco Bay Area Stadium
+    home_team: Austria
+    away_team: Jordan
+  - match_id: M21
+    stage: group
+    group: K
+    date: 2026-06-17
+    kickoff_uk: "18:00"
+    kickoff_local: null
+    venue_city: Houston
+    venue_stadium: Houston Stadium
+    home_team: Portugal
+    away_team: DR Congo
+  - match_id: M22
+    stage: group
+    group: L
+    date: 2026-06-17
+    kickoff_uk: "21:00"
+    kickoff_local: null
+    venue_city: Arlington, Texas
+    venue_stadium: Dallas Stadium
+    home_team: England
+    away_team: Croatia
+
+  # ===== Thursday, June 18 =====
+  - match_id: M23
+    stage: group
+    group: L
+    date: 2026-06-18
+    kickoff_uk: "00:00"
+    kickoff_local: null
+    venue_city: Toronto
+    venue_stadium: Toronto Stadium
+    home_team: Ghana
+    away_team: Panama
+  - match_id: M24
+    stage: group
+    group: K
+    date: 2026-06-18
+    kickoff_uk: "03:00"
+    kickoff_local: null
+    venue_city: Mexico City
+    venue_stadium: Estadio Azteca
+    home_team: Uzbekistan
+    away_team: Colombia
+  - match_id: M25
+    stage: group
+    group: A
+    date: 2026-06-18
+    kickoff_uk: "17:00"
+    kickoff_local: null
+    venue_city: Atlanta
+    venue_stadium: Atlanta Stadium
+    home_team: Czech Republic
+    away_team: South Africa
+  - match_id: M26
+    stage: group
+    group: B
+    date: 2026-06-18
+    kickoff_uk: "20:00"
+    kickoff_local: null
+    venue_city: Inglewood, California
+    venue_stadium: Los Angeles Stadium
+    home_team: Switzerland
+    away_team: Bosnia and Herzegovina
+  - match_id: M27
+    stage: group
+    group: B
+    date: 2026-06-18
+    kickoff_uk: "23:00"
+    kickoff_local: null
+    venue_city: Vancouver
+    venue_stadium: BC Place Vancouver
+    home_team: Canada
+    away_team: Qatar
+
+  # ===== Friday, June 19 =====
+  - match_id: M28
+    stage: group
+    group: A
+    date: 2026-06-19
+    kickoff_uk: "02:00"
+    kickoff_local: null
+    venue_city: Zapopan
+    venue_stadium: Estadio Guadalajara
+    home_team: Mexico
+    away_team: South Korea
+  - match_id: M29
+    stage: group
+    group: D
+    date: 2026-06-19
+    kickoff_uk: "20:00"
+    kickoff_local: null
+    venue_city: Seattle
+    venue_stadium: Seattle Stadium
+    home_team: United States
+    away_team: Australia
+  - match_id: M30
+    stage: group
+    group: C
+    date: 2026-06-19
+    kickoff_uk: "23:00"
+    kickoff_local: null
+    venue_city: Foxborough, Massachusetts
+    venue_stadium: Boston Stadium
+    home_team: Scotland
+    away_team: Morocco
+
+  # ===== Saturday, June 20 =====
+  - match_id: M31
+    stage: group
+    group: C
+    date: 2026-06-20
+    kickoff_uk: "01:30"
+    kickoff_local: null
+    venue_city: Philadelphia
+    venue_stadium: Philadelphia Stadium
+    home_team: Brazil
+    away_team: Haiti
+  - match_id: M32
+    stage: group
+    group: D
+    date: 2026-06-20
+    kickoff_uk: "04:00"
+    kickoff_local: null
+    venue_city: Santa Clara, California
+    venue_stadium: San Francisco Bay Area Stadium
+    home_team: Turkey
+    away_team: Paraguay
+  - match_id: M33
+    stage: group
+    group: F
+    date: 2026-06-20
+    kickoff_uk: "18:00"
+    kickoff_local: null
+    venue_city: Houston
+    venue_stadium: Houston Stadium
+    home_team: Netherlands
+    away_team: Sweden
+    notes: "Sky Sports labels this as 'Group A: Netherlands vs Sweden' but Netherlands and Sweden are both in Group F — typo in source; correct group is F."
+  - match_id: M34
+    stage: group
+    group: E
+    date: 2026-06-20
+    kickoff_uk: "21:00"
+    kickoff_local: null
+    venue_city: Toronto
+    venue_stadium: Toronto Stadium
+    home_team: Germany
+    away_team: Ivory Coast
+
+  # ===== Sunday, June 21 =====
+  - match_id: M35
+    stage: group
+    group: E
+    date: 2026-06-21
+    kickoff_uk: "01:00"
+    kickoff_local: null
+    venue_city: Kansas City
+    venue_stadium: Kansas City Stadium
+    home_team: Ecuador
+    away_team: Curacao
+  - match_id: M36
+    stage: group
+    group: F
+    date: 2026-06-21
+    kickoff_uk: "05:00"
+    kickoff_local: null
+    venue_city: Guadalupe
+    venue_stadium: Estadio Monterrey
+    home_team: Tunisia
+    away_team: Japan
+  - match_id: M37
+    stage: group
+    group: H
+    date: 2026-06-21
+    kickoff_uk: "17:00"
+    kickoff_local: null
+    venue_city: Atlanta
+    venue_stadium: Atlanta Stadium
+    home_team: Spain
+    away_team: Saudi Arabia
+  - match_id: M38
+    stage: group
+    group: G
+    date: 2026-06-21
+    kickoff_uk: "20:00"
+    kickoff_local: null
+    venue_city: Inglewood, California
+    venue_stadium: Los Angeles Stadium
+    home_team: Belgium
+    away_team: Iran
+  - match_id: M39
+    stage: group
+    group: H
+    date: 2026-06-21
+    kickoff_uk: "23:00"
+    kickoff_local: null
+    venue_city: Miami Gardens, Florida
+    venue_stadium: Miami Stadium
+    home_team: Uruguay
+    away_team: Cape Verde
+
+  # ===== Monday, June 22 =====
+  - match_id: M40
+    stage: group
+    group: G
+    date: 2026-06-22
+    kickoff_uk: "02:00"
+    kickoff_local: null
+    venue_city: Vancouver
+    venue_stadium: BC Place Vancouver
+    home_team: New Zealand
+    away_team: Egypt
+  - match_id: M41
+    stage: group
+    group: J
+    date: 2026-06-22
+    kickoff_uk: "18:00"
+    kickoff_local: null
+    venue_city: Arlington, Texas
+    venue_stadium: Dallas Stadium
+    home_team: Argentina
+    away_team: Austria
+  - match_id: M42
+    stage: group
+    group: I
+    date: 2026-06-22
+    kickoff_uk: "22:00"
+    kickoff_local: null
+    venue_city: Philadelphia
+    venue_stadium: Philadelphia Stadium
+    home_team: France
+    away_team: Iraq
+
+  # ===== Tuesday, June 23 =====
+  - match_id: M43
+    stage: group
+    group: I
+    date: 2026-06-23
+    kickoff_uk: "01:00"
+    kickoff_local: null
+    venue_city: Toronto
+    venue_stadium: Toronto Stadium
+    home_team: Norway
+    away_team: Senegal
+  - match_id: M44
+    stage: group
+    group: J
+    date: 2026-06-23
+    kickoff_uk: "04:00"
+    kickoff_local: null
+    venue_city: Santa Clara, California
+    venue_stadium: San Francisco Bay Area Stadium
+    home_team: Jordan
+    away_team: Algeria
+  - match_id: M45
+    stage: group
+    group: K
+    date: 2026-06-23
+    kickoff_uk: "18:00"
+    kickoff_local: null
+    venue_city: Houston
+    venue_stadium: Houston Stadium
+    home_team: Portugal
+    away_team: Uzbekistan
+  - match_id: M46
+    stage: group
+    group: L
+    date: 2026-06-23
+    kickoff_uk: "21:00"
+    kickoff_local: null
+    venue_city: Foxborough, Massachusetts
+    venue_stadium: Boston Stadium
+    home_team: England
+    away_team: Ghana
+
+  # ===== Wednesday, June 24 =====
+  - match_id: M47
+    stage: group
+    group: L
+    date: 2026-06-24
+    kickoff_uk: "00:00"
+    kickoff_local: null
+    venue_city: Foxborough, Massachusetts
+    venue_stadium: Boston Stadium
+    home_team: Panama
+    away_team: Croatia
+  - match_id: M48
+    stage: group
+    group: K
+    date: 2026-06-24
+    kickoff_uk: "03:00"
+    kickoff_local: null
+    venue_city: Zapopan
+    venue_stadium: Estadio Guadalajara
+    home_team: Colombia
+    away_team: DR Congo
+  - match_id: M49
+    stage: group
+    group: B
+    date: 2026-06-24
+    kickoff_uk: "20:00"
+    kickoff_local: null
+    venue_city: Vancouver
+    venue_stadium: BC Place Vancouver
+    home_team: Switzerland
+    away_team: Canada
+  - match_id: M50
+    stage: group
+    group: B
+    date: 2026-06-24
+    kickoff_uk: "20:00"
+    kickoff_local: null
+    venue_city: Seattle
+    venue_stadium: Seattle Stadium
+    home_team: Bosnia and Herzegovina
+    away_team: Qatar
+  - match_id: M51
+    stage: group
+    group: C
+    date: 2026-06-24
+    kickoff_uk: "23:00"
+    kickoff_local: null
+    venue_city: Atlanta
+    venue_stadium: Atlanta Stadium
+    home_team: Morocco
+    away_team: Haiti
+  - match_id: M52
+    stage: group
+    group: C
+    date: 2026-06-24
+    kickoff_uk: "23:00"
+    kickoff_local: null
+    venue_city: Miami Gardens, Florida
+    venue_stadium: Miami Stadium
+    home_team: Scotland
+    away_team: Brazil
+
+  # ===== Thursday, June 25 =====
+  - match_id: M53
+    stage: group
+    group: A
+    date: 2026-06-25
+    kickoff_uk: "02:00"
+    kickoff_local: null
+    venue_city: Guadalupe
+    venue_stadium: Estadio Monterrey
+    home_team: South Africa
+    away_team: South Korea
+  - match_id: M54
+    stage: group
+    group: A
+    date: 2026-06-25
+    kickoff_uk: "02:00"
+    kickoff_local: null
+    venue_city: Mexico City
+    venue_stadium: Estadio Azteca
+    home_team: Czech Republic
+    away_team: Mexico
+  - match_id: M55
+    stage: group
+    group: E
+    date: 2026-06-25
+    kickoff_uk: "21:00"
+    kickoff_local: null
+    venue_city: Philadelphia
+    venue_stadium: Philadelphia Stadium
+    home_team: Curacao
+    away_team: Ivory Coast
+  - match_id: M56
+    stage: group
+    group: E
+    date: 2026-06-25
+    kickoff_uk: "21:00"
+    kickoff_local: null
+    venue_city: East Rutherford, New Jersey
+    venue_stadium: New York New Jersey Stadium
+    home_team: Ecuador
+    away_team: Germany
+
+  # ===== Friday, June 26 =====
+  - match_id: M57
+    stage: group
+    group: F
+    date: 2026-06-26
+    kickoff_uk: "00:00"
+    kickoff_local: null
+    venue_city: Kansas City
+    venue_stadium: Kansas City Stadium
+    home_team: Tunisia
+    away_team: Netherlands
+  - match_id: M58
+    stage: group
+    group: F
+    date: 2026-06-26
+    kickoff_uk: "00:00"
+    kickoff_local: null
+    venue_city: Arlington, Texas
+    venue_stadium: Dallas Stadium
+    home_team: Japan
+    away_team: Sweden
+  - match_id: M59
+    stage: group
+    group: D
+    date: 2026-06-26
+    kickoff_uk: "03:00"
+    kickoff_local: null
+    venue_city: Inglewood, California
+    venue_stadium: Los Angeles Stadium
+    home_team: Turkey
+    away_team: United States
+  - match_id: M60
+    stage: group
+    group: D
+    date: 2026-06-26
+    kickoff_uk: "03:00"
+    kickoff_local: null
+    venue_city: Santa Clara, California
+    venue_stadium: San Francisco Bay Area Stadium
+    home_team: Paraguay
+    away_team: Australia
+  - match_id: M61
+    stage: group
+    group: I
+    date: 2026-06-26
+    kickoff_uk: "20:00"
+    kickoff_local: null
+    venue_city: Foxborough, Massachusetts
+    venue_stadium: Boston Stadium
+    home_team: Norway
+    away_team: France
+  - match_id: M62
+    stage: group
+    group: I
+    date: 2026-06-26
+    kickoff_uk: "20:00"
+    kickoff_local: null
+    venue_city: Toronto
+    venue_stadium: Toronto Stadium
+    home_team: Senegal
+    away_team: Iraq
+
+  # ===== Saturday, June 27 =====
+  - match_id: M63
+    stage: group
+    group: H
+    date: 2026-06-27
+    kickoff_uk: "01:00"
+    kickoff_local: null
+    venue_city: Houston
+    venue_stadium: Houston Stadium
+    home_team: Cape Verde
+    away_team: Saudi Arabia
+  - match_id: M64
+    stage: group
+    group: H
+    date: 2026-06-27
+    kickoff_uk: "01:00"
+    kickoff_local: null
+    venue_city: Zapopan
+    venue_stadium: Estadio Guadalajara
+    home_team: Uruguay
+    away_team: Spain
+  - match_id: M65
+    stage: group
+    group: G
+    date: 2026-06-27
+    kickoff_uk: "04:00"
+    kickoff_local: null
+    venue_city: Vancouver
+    venue_stadium: BC Place Vancouver
+    home_team: New Zealand
+    away_team: Belgium
+  - match_id: M66
+    stage: group
+    group: G
+    date: 2026-06-27
+    kickoff_uk: "04:00"
+    kickoff_local: null
+    venue_city: Seattle
+    venue_stadium: Seattle Stadium
+    home_team: Egypt
+    away_team: Iran
+  - match_id: M67
+    stage: group
+    group: L
+    date: 2026-06-27
+    kickoff_uk: "22:00"
+    kickoff_local: null
+    venue_city: East Rutherford, New Jersey
+    venue_stadium: New York New Jersey Stadium
+    home_team: Panama
+    away_team: England
+  - match_id: M68
+    stage: group
+    group: L
+    date: 2026-06-27
+    kickoff_uk: "22:00"
+    kickoff_local: null
+    venue_city: Philadelphia
+    venue_stadium: Philadelphia Stadium
+    home_team: Croatia
+    away_team: Ghana
+
+  # ===== Sunday, June 28 =====
+  - match_id: M69
+    stage: group
+    group: K
+    date: 2026-06-28
+    kickoff_uk: "00:30"
+    kickoff_local: null
+    venue_city: Miami Gardens, Florida
+    venue_stadium: Miami Stadium
+    home_team: Colombia
+    away_team: Portugal
+  - match_id: M70
+    stage: group
+    group: K
+    date: 2026-06-28
+    kickoff_uk: "00:30"
+    kickoff_local: null
+    venue_city: Atlanta
+    venue_stadium: Atlanta Stadium
+    home_team: DR Congo
+    away_team: Uzbekistan
+  - match_id: M71
+    stage: group
+    group: J
+    date: 2026-06-28
+    kickoff_uk: "03:00"
+    kickoff_local: null
+    venue_city: Kansas City
+    venue_stadium: Kansas City Stadium
+    home_team: Algeria
+    away_team: Austria
+  - match_id: M72
+    stage: group
+    group: J
+    date: 2026-06-28
+    kickoff_uk: "03:00"
+    kickoff_local: null
+    venue_city: Arlington, Texas
+    venue_stadium: Dallas Stadium
+    home_team: Jordan
+    away_team: Argentina
+
+  # ===== KNOCKOUT STAGE =====
+  # Round of 32
+  - match_id: M73
+    knockout_match_no: 73
+    stage: r32
+    group: null
+    date: 2026-06-28
+    kickoff_uk: "20:00"
+    kickoff_local: null
+    venue_city: Inglewood, California
+    venue_stadium: Los Angeles Stadium
+    home_team: Runner-up Group A
+    away_team: Runner-up Group B
+
+  # ===== Monday, June 29 =====
+  - match_id: M74
+    knockout_match_no: 76
+    stage: r32
+    group: null
+    date: 2026-06-29
+    kickoff_uk: "18:00"
+    kickoff_local: null
+    venue_city: Houston
+    venue_stadium: Houston Stadium
+    home_team: Winner Group C
+    away_team: Runner-up Group F
+  - match_id: M75
+    knockout_match_no: 74
+    stage: r32
+    group: null
+    date: 2026-06-29
+    kickoff_uk: "21:30"
+    kickoff_local: null
+    venue_city: Foxborough, Massachusetts
+    venue_stadium: Boston Stadium
+    home_team: Winner Group E
+    away_team: 3rd Group A/B/C/D/F
+
+  # ===== Tuesday, June 30 =====
+  - match_id: M76
+    knockout_match_no: 75
+    stage: r32
+    group: null
+    date: 2026-06-30
+    kickoff_uk: "02:00"
+    kickoff_local: null
+    venue_city: Guadalupe
+    venue_stadium: Estadio Monterrey
+    home_team: Winner Group F
+    away_team: Runner-up Group C
+  - match_id: M77
+    knockout_match_no: 78
+    stage: r32
+    group: null
+    date: 2026-06-30
+    kickoff_uk: "18:00"
+    kickoff_local: null
+    venue_city: Arlington, Texas
+    venue_stadium: Dallas Stadium
+    home_team: Runner-up Group E
+    away_team: Runner-up Group I
+  - match_id: M78
+    knockout_match_no: 77
+    stage: r32
+    group: null
+    date: 2026-06-30
+    kickoff_uk: "22:00"
+    kickoff_local: null
+    venue_city: East Rutherford, New Jersey
+    venue_stadium: New York New Jersey Stadium
+    home_team: Winner Group I
+    away_team: 3rd Group C/D/F/G/H
+
+  # ===== Wednesday, July 1 =====
+  - match_id: M79
+    knockout_match_no: 79
+    stage: r32
+    group: null
+    date: 2026-07-01
+    kickoff_uk: "02:00"
+    kickoff_local: null
+    venue_city: Mexico City
+    venue_stadium: Estadio Azteca
+    home_team: Winner Group A
+    away_team: 3rd Group C/E/F/H/I
+  - match_id: M80
+    knockout_match_no: 80
+    stage: r32
+    group: null
+    date: 2026-07-01
+    kickoff_uk: "17:00"
+    kickoff_local: null
+    venue_city: Atlanta
+    venue_stadium: Atlanta Stadium
+    home_team: Winner Group L
+    away_team: 3rd Group E/H/I/J/K
+  - match_id: M81
+    knockout_match_no: 82
+    stage: r32
+    group: null
+    date: 2026-07-01
+    kickoff_uk: "21:00"
+    kickoff_local: null
+    venue_city: Seattle
+    venue_stadium: Seattle Stadium
+    home_team: Winner Group G
+    away_team: 3rd Group A/E/H/I/J
+
+  # ===== Thursday, July 2 =====
+  - match_id: M82
+    knockout_match_no: 81
+    stage: r32
+    group: null
+    date: 2026-07-02
+    kickoff_uk: "01:00"
+    kickoff_local: null
+    venue_city: Santa Clara, California
+    venue_stadium: San Francisco Bay Area Stadium
+    home_team: Winner Group D
+    away_team: 3rd Group B/E/F/I/J
+  - match_id: M83
+    knockout_match_no: 84
+    stage: r32
+    group: null
+    date: 2026-07-02
+    kickoff_uk: "20:00"
+    kickoff_local: null
+    venue_city: Inglewood, California
+    venue_stadium: Los Angeles Stadium
+    home_team: Winner Group H
+    away_team: Runner-up Group J
+
+  # ===== Friday, July 3 =====
+  - match_id: M84
+    knockout_match_no: 83
+    stage: r32
+    group: null
+    date: 2026-07-03
+    kickoff_uk: "00:00"
+    kickoff_local: null
+    venue_city: Toronto
+    venue_stadium: Toronto Stadium
+    home_team: Runner-up Group K
+    away_team: Runner-up Group L
+  - match_id: M85
+    knockout_match_no: 85
+    stage: r32
+    group: null
+    date: 2026-07-03
+    kickoff_uk: "04:00"
+    kickoff_local: null
+    venue_city: Vancouver
+    venue_stadium: BC Place Vancouver
+    home_team: Winner Group B
+    away_team: 3rd Group E/F/G/I/J
+  - match_id: M86
+    knockout_match_no: 88
+    stage: r32
+    group: null
+    date: 2026-07-03
+    kickoff_uk: "19:00"
+    kickoff_local: null
+    venue_city: Arlington, Texas
+    venue_stadium: Dallas Stadium
+    home_team: Runner-up Group D
+    away_team: Runner-up Group G
+  - match_id: M87
+    knockout_match_no: 86
+    stage: r32
+    group: null
+    date: 2026-07-03
+    kickoff_uk: "23:00"
+    kickoff_local: null
+    venue_city: Miami Gardens, Florida
+    venue_stadium: Miami Stadium
+    home_team: Winner Group J
+    away_team: Runner-up Group H
+
+  # ===== Saturday, July 4 =====
+  - match_id: M88
+    knockout_match_no: 87
+    stage: r32
+    group: null
+    date: 2026-07-04
+    kickoff_uk: "02:30"
+    kickoff_local: null
+    venue_city: Kansas City
+    venue_stadium: Kansas City Stadium
+    home_team: Winner Group K
+    away_team: 3rd Group D/E/I/J/L
+  - match_id: M89
+    knockout_match_no: 90
+    stage: r16
+    group: null
+    date: 2026-07-04
+    kickoff_uk: "18:00"
+    kickoff_local: null
+    venue_city: Houston
+    venue_stadium: Houston Stadium
+    home_team: Winner R32-73
+    away_team: Winner R32-75
+  - match_id: M90
+    knockout_match_no: 89
+    stage: r16
+    group: null
+    date: 2026-07-04
+    kickoff_uk: "22:00"
+    kickoff_local: null
+    venue_city: Philadelphia
+    venue_stadium: Philadelphia Stadium
+    home_team: Winner R32-74
+    away_team: Winner R32-77
+
+  # ===== Sunday, July 5 =====
+  - match_id: M91
+    knockout_match_no: 91
+    stage: r16
+    group: null
+    date: 2026-07-05
+    kickoff_uk: "21:00"
+    kickoff_local: null
+    venue_city: East Rutherford, New Jersey
+    venue_stadium: New York New Jersey Stadium
+    home_team: Winner R32-76
+    away_team: Winner R32-78
+
+  # ===== Monday, July 6 =====
+  - match_id: M92
+    knockout_match_no: 92
+    stage: r16
+    group: null
+    date: 2026-07-06
+    kickoff_uk: "01:00"
+    kickoff_local: null
+    venue_city: Mexico City
+    venue_stadium: Estadio Azteca
+    home_team: Winner R32-79
+    away_team: Winner R32-80
+  - match_id: M93
+    knockout_match_no: 93
+    stage: r16
+    group: null
+    date: 2026-07-06
+    kickoff_uk: "20:00"
+    kickoff_local: null
+    venue_city: Arlington, Texas
+    venue_stadium: Dallas Stadium
+    home_team: Winner R32-83
+    away_team: Winner R32-84
+
+  # ===== Tuesday, July 7 =====
+  - match_id: M94
+    knockout_match_no: 94
+    stage: r16
+    group: null
+    date: 2026-07-07
+    kickoff_uk: "01:00"
+    kickoff_local: null
+    venue_city: Seattle
+    venue_stadium: Seattle Stadium
+    home_team: Winner R32-81
+    away_team: Winner R32-82
+  - match_id: M95
+    knockout_match_no: 95
+    stage: r16
+    group: null
+    date: 2026-07-07
+    kickoff_uk: "17:00"
+    kickoff_local: null
+    venue_city: Atlanta
+    venue_stadium: Atlanta Stadium
+    home_team: Winner R32-86
+    away_team: Winner R32-88
+  - match_id: M96
+    knockout_match_no: 96
+    stage: r16
+    group: null
+    date: 2026-07-07
+    kickoff_uk: "21:00"
+    kickoff_local: null
+    venue_city: Vancouver
+    venue_stadium: BC Place Vancouver
+    home_team: Winner R32-85
+    away_team: Winner R32-87
+
+  # ===== Thursday, July 9 =====
+  - match_id: M97
+    knockout_match_no: 97
+    stage: qf
+    group: null
+    date: 2026-07-09
+    kickoff_uk: "21:00"
+    kickoff_local: null
+    venue_city: Foxborough, Massachusetts
+    venue_stadium: Boston Stadium
+    home_team: Winner R16-89
+    away_team: Winner R16-90
+
+  # ===== Friday, July 10 =====
+  - match_id: M98
+    knockout_match_no: 98
+    stage: qf
+    group: null
+    date: 2026-07-10
+    kickoff_uk: "20:00"
+    kickoff_local: null
+    venue_city: Inglewood, California
+    venue_stadium: Los Angeles Stadium
+    home_team: Winner R16-93
+    away_team: Winner R16-94
+
+  # ===== Saturday, July 11 =====
+  - match_id: M99
+    knockout_match_no: 99
+    stage: qf
+    group: null
+    date: 2026-07-11
+    kickoff_uk: "22:00"
+    kickoff_local: null
+    venue_city: Miami Gardens, Florida
+    venue_stadium: Miami Stadium
+    home_team: Winner R16-91
+    away_team: Winner R16-92
+
+  # ===== Sunday, July 12 =====
+  - match_id: M100
+    knockout_match_no: 100
+    stage: qf
+    group: null
+    date: 2026-07-12
+    kickoff_uk: "02:00"
+    kickoff_local: null
+    venue_city: Kansas City
+    venue_stadium: Kansas City Stadium
+    home_team: Winner R16-95
+    away_team: Winner R16-96
+
+  # ===== Tuesday, July 14 =====
+  - match_id: M101
+    knockout_match_no: 101
+    stage: sf
+    group: null
+    date: 2026-07-14
+    kickoff_uk: "20:00"
+    kickoff_local: null
+    venue_city: Arlington, Texas
+    venue_stadium: Dallas Stadium
+    home_team: Winner QF-97
+    away_team: Winner QF-98
+
+  # ===== Wednesday, July 15 =====
+  - match_id: M102
+    knockout_match_no: 102
+    stage: sf
+    group: null
+    date: 2026-07-15
+    kickoff_uk: "20:00"
+    kickoff_local: null
+    venue_city: Atlanta
+    venue_stadium: Atlanta Stadium
+    home_team: Winner QF-99
+    away_team: Winner QF-100
+
+  # ===== Saturday, July 18 =====
+  - match_id: M103
+    knockout_match_no: 103
+    stage: third_place
+    group: null
+    date: 2026-07-18
+    kickoff_uk: "22:00"
+    kickoff_local: null
+    venue_city: Miami Gardens, Florida
+    venue_stadium: Miami Stadium
+    home_team: Loser SF-101
+    away_team: Loser SF-102
+
+  # ===== Sunday, July 19 =====
+  - match_id: M104
+    knockout_match_no: 104
+    stage: final
+    group: null
+    date: 2026-07-19
+    kickoff_uk: "20:00"
+    kickoff_local: null
+    venue_city: East Rutherford, New Jersey
+    venue_stadium: New York New Jersey Stadium
+    home_team: Winner SF-101
+    away_team: Winner SF-102
