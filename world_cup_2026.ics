@@ -1,0 +1,2038 @@
+BEGIN:VCALENDAR
+PRODID:-//Oliver Wakelin//World Cup 2026//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:World Cup 2026
+X-WR-CALDESC:All 104 matches of the 2026 FIFA World Cup. England matches 
+ include broadcaster\, stadium\, lineup link and pre-match reminders. Cur
+ ated by Oliver.
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
+X-PUBLISHED-TTL:PT1H
+BEGIN:VTIMEZONE
+TZID:Europe/London
+X-LIC-LOCATION:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:M01-a03d5841f537@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260611T200000
+DTEND;TZID=Europe/London:20260611T214500
+SUMMARY:WC: Mexico v South Africa
+LOCATION:Estadio Azteca\, Mexico City
+DESCRIPTION:Group stage — Group A\nKick-off: 20:00 UK time\nVenue: Esta
+ dio Azteca\, Mexico City\n\nUK:  ITV1 / ITVX\nUS:  FOX (English) / Telem
+ undo (Spanish)\n\nBBC match centre: https://www.bbc.co.uk/sport/football
+ /world-cup/scores-fixtures\nUK TV guide:      https://www.fanzo.com/en/t
+ vguide/football/fifa-world-cup/10105\nUS TV guide:      https://www.fanz
+ o.com/en-us/tvguide/soccer/fifa-world-cup/10199
+CATEGORIES:World Cup 2026\,Group A\,Marquee
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M02-f6c6c9c1f850@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260612T030000
+DTEND;TZID=Europe/London:20260612T044500
+SUMMARY:WC: South Korea v Czech Republic
+LOCATION:Estadio Guadalajara\, Zapopan
+DESCRIPTION:Group stage — Group A  |  KO 03:00 UK\nVenue: Estadio Guada
+ lajara\, Zapopan\nUK: BBC One / iPlayer  |  US: FOX or FS1 (English) / T
+ elemundo or Universo (Spanish) — see US TV guide\nLive: https://www.bb
+ c.co.uk/sport/football/world-cup/scores-fixtures
+CATEGORIES:World Cup 2026\,Group A
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M03-eacb0e526591@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260612T200000
+DTEND;TZID=Europe/London:20260612T214500
+SUMMARY:WC: Canada v Bosnia and Herzegovina
+LOCATION:Toronto Stadium\, Toronto
+DESCRIPTION:Group stage — Group B\nKick-off: 20:00 UK time\nVenue: Toro
+ nto Stadium\, Toronto\n\nUK:  BBC One / iPlayer\nUS:  FOX (English) / Te
+ lemundo (Spanish)\n\nBBC match centre: https://www.bbc.co.uk/sport/footb
+ all/world-cup/scores-fixtures\nUK TV guide:      https://www.fanzo.com/e
+ n/tvguide/football/fifa-world-cup/10105\nUS TV guide:      https://www.f
+ anzo.com/en-us/tvguide/soccer/fifa-world-cup/10199
+CATEGORIES:World Cup 2026\,Group B\,Marquee
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M04-cafe6523ac6f@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260613T020000
+DTEND;TZID=Europe/London:20260613T034500
+SUMMARY:WC: United States v Paraguay
+LOCATION:Los Angeles Stadium\, Inglewood\, California
+DESCRIPTION:Group stage — Group D\nKick-off: 02:00 UK time\nVenue: Los 
+ Angeles Stadium\, Inglewood\, California\n\nUK:  BBC One / iPlayer\nUS: 
+  FOX (English) / Telemundo (Spanish)\n\nBBC match centre: https://www.bb
+ c.co.uk/sport/football/world-cup/scores-fixtures\nUK TV guide:      http
+ s://www.fanzo.com/en/tvguide/football/fifa-world-cup/10105\nUS TV guide:
+       https://www.fanzo.com/en-us/tvguide/soccer/fifa-world-cup/10199
+CATEGORIES:World Cup 2026\,Group D\,Marquee
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M05-8cd67306ca42@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260613T200000
+DTEND;TZID=Europe/London:20260613T214500
+SUMMARY:WC: Qatar v Switzerland
+LOCATION:San Francisco Bay Area Stadium\, Santa Clara\, California
+DESCRIPTION:Group stage — Group B  |  KO 20:00 UK\nVenue: San Francisco
+  Bay Area Stadium\, Santa Clara\, California\nUK: ITV1 / ITVX  |  US: FO
+ X or FS1 (English) / Telemundo or Universo (Spanish) — see US TV guide
+ \nLive: https://www.bbc.co.uk/sport/football/world-cup/scores-fixtures
+CATEGORIES:World Cup 2026\,Group B
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M06-346689db2b42@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260613T230000
+DTEND;TZID=Europe/London:20260614T004500
+SUMMARY:WC: Brazil v Morocco
+LOCATION:New York New Jersey Stadium\, East Rutherford\, New Jersey
+DESCRIPTION:Group stage — Group C\nKick-off: 23:00 UK time\nVenue: New 
+ York New Jersey Stadium\, East Rutherford\, New Jersey\n\nUK:  BBC One /
+  iPlayer\nUS:  FOX or FS1 (English) / Telemundo or Universo (Spanish) 
+ — see US TV guide\n\nBBC match centre: https://www.bbc.co.uk/sport/foo
+ tball/world-cup/scores-fixtures\nUK TV guide:      https://www.fanzo.com
+ /en/tvguide/football/fifa-world-cup/10105\nUS TV guide:      https://www
+ .fanzo.com/en-us/tvguide/soccer/fifa-world-cup/10199
+CATEGORIES:World Cup 2026\,Group C\,Marquee
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M07-c1390d99b3c9@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260614T020000
+DTEND;TZID=Europe/London:20260614T034500
+SUMMARY:WC: Haiti v Scotland
+LOCATION:Boston Stadium\, Foxborough\, Massachusetts
+DESCRIPTION:Group stage — Group C\nKick-off: 02:00 UK time\nVenue: Bost
+ on Stadium\, Foxborough\, Massachusetts\n\nUK:  BBC One / iPlayer\nUS:  
+ FOX or FS1 (English) / Telemundo or Universo (Spanish) — see US TV gui
+ de\n\nBBC match centre: https://www.bbc.co.uk/sport/football/world-cup/s
+ cores-fixtures\nUK TV guide:      https://www.fanzo.com/en/tvguide/footb
+ all/fifa-world-cup/10105\nUS TV guide:      https://www.fanzo.com/en-us/
+ tvguide/soccer/fifa-world-cup/10199
+CATEGORIES:World Cup 2026\,Group C\,Marquee
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M08-f2d61772aaa1@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260614T050000
+DTEND;TZID=Europe/London:20260614T064500
+SUMMARY:WC: Australia v Turkey
+LOCATION:BC Place Vancouver\, Vancouver
+DESCRIPTION:Group stage — Group D  |  KO 05:00 UK\nVenue: BC Place Vanc
+ ouver\, Vancouver\nUK: BBC One / iPlayer  |  US: FOX or FS1 (English) / 
+ Telemundo or Universo (Spanish) — see US TV guide\nLive: https://www.b
+ bc.co.uk/sport/football/world-cup/scores-fixtures
+CATEGORIES:World Cup 2026\,Group D
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M09-6d953bb885d9@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260614T180000
+DTEND;TZID=Europe/London:20260614T194500
+SUMMARY:WC: Germany v Curacao
+LOCATION:Houston Stadium\, Houston
+DESCRIPTION:Group stage — Group E\nKick-off: 18:00 UK time\nVenue: Hous
+ ton Stadium\, Houston\n\nUK:  ITV1 / ITVX\nUS:  FOX or FS1 (English) / T
+ elemundo or Universo (Spanish) — see US TV guide\n\nBBC match centre: 
+ https://www.bbc.co.uk/sport/football/world-cup/scores-fixtures\nUK TV gu
+ ide:      https://www.fanzo.com/en/tvguide/football/fifa-world-cup/10105
+ \nUS TV guide:      https://www.fanzo.com/en-us/tvguide/soccer/fifa-worl
+ d-cup/10199
+CATEGORIES:World Cup 2026\,Group E\,Marquee
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M10-b5a3e0fc67c8@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260614T210000
+DTEND;TZID=Europe/London:20260614T224500
+SUMMARY:WC: Netherlands v Japan
+LOCATION:Dallas Stadium\, Arlington\, Texas
+DESCRIPTION:Group stage — Group F\nKick-off: 21:00 UK time\nVenue: Dall
+ as Stadium\, Arlington\, Texas\n\nUK:  ITV1 / ITVX\nUS:  FOX or FS1 (Eng
+ lish) / Telemundo or Universo (Spanish) — see US TV guide\n\nBBC match
+  centre: https://www.bbc.co.uk/sport/football/world-cup/scores-fixtures\
+ nUK TV guide:      https://www.fanzo.com/en/tvguide/football/fifa-world-
+ cup/10105\nUS TV guide:      https://www.fanzo.com/en-us/tvguide/soccer/
+ fifa-world-cup/10199
+CATEGORIES:World Cup 2026\,Group F\,Marquee
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M11-efc9ec1000ca@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260615T000000
+DTEND;TZID=Europe/London:20260615T014500
+SUMMARY:WC: Ivory Coast v Ecuador
+LOCATION:Philadelphia Stadium\, Philadelphia
+DESCRIPTION:Group stage — Group E  |  KO 00:00 UK\nVenue: Philadelphia 
+ Stadium\, Philadelphia\nUK: BBC One / iPlayer  |  US: FOX or FS1 (Englis
+ h) / Telemundo or Universo (Spanish) — see US TV guide\nLive: https://
+ www.bbc.co.uk/sport/football/world-cup/scores-fixtures
+CATEGORIES:World Cup 2026\,Group E
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M12-508a7038f57e@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260615T030000
+DTEND;TZID=Europe/London:20260615T044500
+SUMMARY:WC: Sweden v Tunisia
+LOCATION:Estadio Monterrey\, Guadalupe
+DESCRIPTION:Group stage — Group F  |  KO 03:00 UK\nVenue: Estadio Monte
+ rrey\, Guadalupe\nUK: BBC One / iPlayer  |  US: FOX or FS1 (English) / T
+ elemundo or Universo (Spanish) — see US TV guide\nLive: https://www.bb
+ c.co.uk/sport/football/world-cup/scores-fixtures
+CATEGORIES:World Cup 2026\,Group F
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M13-62f354bc40f3@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260615T170000
+DTEND;TZID=Europe/London:20260615T184500
+SUMMARY:WC: Spain v Cape Verde
+LOCATION:Atlanta Stadium\, Atlanta
+DESCRIPTION:Group stage — Group H\nKick-off: 17:00 UK time\nVenue: Atla
+ nta Stadium\, Atlanta\n\nUK:  ITV1 / ITVX\nUS:  FOX or FS1 (English) / T
+ elemundo or Universo (Spanish) — see US TV guide\n\nBBC match centre: 
+ https://www.bbc.co.uk/sport/football/world-cup/scores-fixtures\nUK TV gu
+ ide:      https://www.fanzo.com/en/tvguide/football/fifa-world-cup/10105
+ \nUS TV guide:      https://www.fanzo.com/en-us/tvguide/soccer/fifa-worl
+ d-cup/10199
+CATEGORIES:World Cup 2026\,Group H\,Marquee
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M14-1fa3c69b4099@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260615T200000
+DTEND;TZID=Europe/London:20260615T214500
+SUMMARY:WC: Belgium v Egypt
+LOCATION:Seattle Stadium\, Seattle
+DESCRIPTION:Group stage — Group G\nKick-off: 20:00 UK time\nVenue: Seat
+ tle Stadium\, Seattle\n\nUK:  BBC One / iPlayer\nUS:  FOX or FS1 (Englis
+ h) / Telemundo or Universo (Spanish) — see US TV guide\n\nBBC match ce
+ ntre: https://www.bbc.co.uk/sport/football/world-cup/scores-fixtures\nUK
+  TV guide:      https://www.fanzo.com/en/tvguide/football/fifa-world-cup
+ /10105\nUS TV guide:      https://www.fanzo.com/en-us/tvguide/soccer/fif
+ a-world-cup/10199
+CATEGORIES:World Cup 2026\,Group G\,Marquee
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M15-53fc2b6673ed@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260615T230000
+DTEND;TZID=Europe/London:20260616T004500
+SUMMARY:WC: Saudi Arabia v Uruguay
+LOCATION:Miami Stadium\, Miami Gardens\, Florida
+DESCRIPTION:Group stage — Group H\nKick-off: 23:00 UK time\nVenue: Miam
+ i Stadium\, Miami Gardens\, Florida\n\nUK:  ITV1 / ITVX\nUS:  FOX or FS1
+  (English) / Telemundo or Universo (Spanish) — see US TV guide\n\nBBC 
+ match centre: https://www.bbc.co.uk/sport/football/world-cup/scores-fixt
+ ures\nUK TV guide:      https://www.fanzo.com/en/tvguide/football/fifa-w
+ orld-cup/10105\nUS TV guide:      https://www.fanzo.com/en-us/tvguide/so
+ ccer/fifa-world-cup/10199
+CATEGORIES:World Cup 2026\,Group H\,Marquee
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M16-dbc135a25977@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260616T020000
+DTEND;TZID=Europe/London:20260616T034500
+SUMMARY:WC: Iran v New Zealand
+LOCATION:Los Angeles Stadium\, Inglewood\, California
+DESCRIPTION:Group stage — Group G  |  KO 02:00 UK\nVenue: Los Angeles S
+ tadium\, Inglewood\, California\nUK: BBC One / iPlayer  |  US: FOX or FS
+ 1 (English) / Telemundo or Universo (Spanish) — see US TV guide\nLive:
+  https://www.bbc.co.uk/sport/football/world-cup/scores-fixtures
+CATEGORIES:World Cup 2026\,Group G
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M17-a7cb24554240@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260616T200000
+DTEND;TZID=Europe/London:20260616T214500
+SUMMARY:WC: France v Senegal
+LOCATION:New York New Jersey Stadium\, East Rutherford\, New Jersey
+DESCRIPTION:Group stage — Group I\nKick-off: 20:00 UK time\nVenue: New 
+ York New Jersey Stadium\, East Rutherford\, New Jersey\n\nUK:  BBC One /
+  iPlayer\nUS:  FOX or FS1 (English) / Telemundo or Universo (Spanish) 
+ — see US TV guide\n\nBBC match centre: https://www.bbc.co.uk/sport/foo
+ tball/world-cup/scores-fixtures\nUK TV guide:      https://www.fanzo.com
+ /en/tvguide/football/fifa-world-cup/10105\nUS TV guide:      https://www
+ .fanzo.com/en-us/tvguide/soccer/fifa-world-cup/10199
+CATEGORIES:World Cup 2026\,Group I\,Marquee
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M18-b577c1ab82c9@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260616T230000
+DTEND;TZID=Europe/London:20260617T004500
+SUMMARY:WC: Iraq v Norway
+LOCATION:Boston Stadium\, Foxborough\, Massachusetts
+DESCRIPTION:Group stage — Group I  |  KO 23:00 UK\nVenue: Boston Stadiu
+ m\, Foxborough\, Massachusetts\nUK: BBC One / iPlayer  |  US: FOX or FS1
+  (English) / Telemundo or Universo (Spanish) — see US TV guide\nLive: 
+ https://www.bbc.co.uk/sport/football/world-cup/scores-fixtures
+CATEGORIES:World Cup 2026\,Group I
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M19-00739d3da92a@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260617T020000
+DTEND;TZID=Europe/London:20260617T034500
+SUMMARY:WC: Argentina v Algeria
+LOCATION:Kansas City Stadium\, Kansas City
+DESCRIPTION:Group stage — Group J\nKick-off: 02:00 UK time\nVenue: Kans
+ as City Stadium\, Kansas City\n\nUK:  ITV1 / ITVX\nUS:  FOX or FS1 (Engl
+ ish) / Telemundo or Universo (Spanish) — see US TV guide\n\nBBC match 
+ centre: https://www.bbc.co.uk/sport/football/world-cup/scores-fixtures\n
+ UK TV guide:      https://www.fanzo.com/en/tvguide/football/fifa-world-c
+ up/10105\nUS TV guide:      https://www.fanzo.com/en-us/tvguide/soccer/f
+ ifa-world-cup/10199
+CATEGORIES:World Cup 2026\,Group J\,Marquee
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M20-d922cc059186@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260617T050000
+DTEND;TZID=Europe/London:20260617T064500
+SUMMARY:WC: Austria v Jordan
+LOCATION:San Francisco Bay Area Stadium\, Santa Clara\, California
+DESCRIPTION:Group stage — Group J  |  KO 05:00 UK\nVenue: San Francisco
+  Bay Area Stadium\, Santa Clara\, California\nUK: BBC One / iPlayer  |  
+ US: FOX or FS1 (English) / Telemundo or Universo (Spanish) — see US TV
+  guide\nLive: https://www.bbc.co.uk/sport/football/world-cup/scores-fixt
+ ures
+CATEGORIES:World Cup 2026\,Group J
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M21-efd4a60b42bc@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260617T180000
+DTEND;TZID=Europe/London:20260617T194500
+SUMMARY:WC: Portugal v DR Congo
+LOCATION:Houston Stadium\, Houston
+DESCRIPTION:Group stage — Group K\nKick-off: 18:00 UK time\nVenue: Hous
+ ton Stadium\, Houston\n\nUK:  BBC One / iPlayer\nUS:  FOX or FS1 (Englis
+ h) / Telemundo or Universo (Spanish) — see US TV guide\n\nBBC match ce
+ ntre: https://www.bbc.co.uk/sport/football/world-cup/scores-fixtures\nUK
+  TV guide:      https://www.fanzo.com/en/tvguide/football/fifa-world-cup
+ /10105\nUS TV guide:      https://www.fanzo.com/en-us/tvguide/soccer/fif
+ a-world-cup/10199
+CATEGORIES:World Cup 2026\,Group K\,Marquee
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M22-2d2cde142cf8@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260617T210000
+DTEND;TZID=Europe/London:20260617T224500
+SUMMARY:WC: England v Croatia  [ENGLAND]
+LOCATION:Dallas Stadium\, Arlington\, Texas
+DESCRIPTION:Group stage — Group L\nKick-off: 21:00 UK time\nVenue: Dall
+ as Stadium\, Arlington\, Texas\n\n── BROADCAST ──\nUK:  ITV1 / I
+ TVX\nUS:  FOX or FS1 (English) / Telemundo or Universo (Spanish) — see
+  US TV guide\n\n── LINKS ──\nBBC match centre / lineups: https:/
+ /www.bbc.co.uk/sport/football/world-cup/scores-fixtures\nFIFA fixtures h
+ ub:          https://www.fifa.com/en/tournaments/mens/worldcup/canadamex
+ icousa2026/scores-fixtures\nUK TV guide:                https://www.fanz
+ o.com/en/tvguide/football/fifa-world-cup/10105\nUS TV guide:            
+     https://www.fanzo.com/en-us/tvguide/soccer/fifa-world-cup/10199\n\n
+ ── PREP ──\nLineups confirmed ~60 minutes before kick-off — ta
+ p the BBC link above.\nReminders set for 60 min and 15 min before kick-o
+ ff.\n\n(Subscribed feed — regenerated periodically. Generated 2026-05-
+ 21 23:05 UTC.)
+CATEGORIES:World Cup 2026\,Group L\,England
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:England kick off in 60 minutes — WC: England v Croatia  [EN
+ GLAND]
+TRIGGER:-PT60M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:England kick off in 15 minutes — WC: England v Croatia  [EN
+ GLAND]
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:M23-43d778b4751c@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260618T000000
+DTEND;TZID=Europe/London:20260618T014500
+SUMMARY:WC: Ghana v Panama
+LOCATION:Toronto Stadium\, Toronto
+DESCRIPTION:Group stage — Group L  |  KO 00:00 UK\nVenue: Toronto Stadi
+ um\, Toronto\nUK: ITV1 / ITVX  |  US: FOX or FS1 (English) / Telemundo o
+ r Universo (Spanish) — see US TV guide\nLive: https://www.bbc.co.uk/sp
+ ort/football/world-cup/scores-fixtures
+CATEGORIES:World Cup 2026\,Group L
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M24-1421d013ba0d@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260618T030000
+DTEND;TZID=Europe/London:20260618T044500
+SUMMARY:WC: Uzbekistan v Colombia
+LOCATION:Estadio Azteca\, Mexico City
+DESCRIPTION:Group stage — Group K  |  KO 03:00 UK\nVenue: Estadio Aztec
+ a\, Mexico City\nUK: BBC One / iPlayer  |  US: FOX or FS1 (English) / Te
+ lemundo or Universo (Spanish) — see US TV guide\nLive: https://www.bbc
+ .co.uk/sport/football/world-cup/scores-fixtures
+CATEGORIES:World Cup 2026\,Group K
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M25-1827666589b4@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260618T170000
+DTEND;TZID=Europe/London:20260618T184500
+SUMMARY:WC: Czech Republic v South Africa
+LOCATION:Atlanta Stadium\, Atlanta
+DESCRIPTION:Group stage — Group A  |  KO 17:00 UK\nVenue: Atlanta Stadi
+ um\, Atlanta\nUK: BBC One / iPlayer  |  US: FOX or FS1 (English) / Telem
+ undo or Universo (Spanish) — see US TV guide\nLive: https://www.bbc.co
+ .uk/sport/football/world-cup/scores-fixtures
+CATEGORIES:World Cup 2026\,Group A
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M26-bd12db2f67c1@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260618T200000
+DTEND;TZID=Europe/London:20260618T214500
+SUMMARY:WC: Switzerland v Bosnia and Herzegovina
+LOCATION:Los Angeles Stadium\, Inglewood\, California
+DESCRIPTION:Group stage — Group B  |  KO 20:00 UK\nVenue: Los Angeles S
+ tadium\, Inglewood\, California\nUK: BBC One / iPlayer  |  US: FOX or FS
+ 1 (English) / Telemundo or Universo (Spanish) — see US TV guide\nLive:
+  https://www.bbc.co.uk/sport/football/world-cup/scores-fixtures
+CATEGORIES:World Cup 2026\,Group B
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M27-8c00022c06af@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260618T230000
+DTEND;TZID=Europe/London:20260619T004500
+SUMMARY:WC: Canada v Qatar
+LOCATION:BC Place Vancouver\, Vancouver
+DESCRIPTION:Group stage — Group B\nKick-off: 23:00 UK time\nVenue: BC P
+ lace Vancouver\, Vancouver\n\nUK:  ITV1 / ITVX\nUS:  FOX or FS1 (English
+ ) / Telemundo or Universo (Spanish) — see US TV guide\n\nBBC match cen
+ tre: https://www.bbc.co.uk/sport/football/world-cup/scores-fixtures\nUK 
+ TV guide:      https://www.fanzo.com/en/tvguide/football/fifa-world-cup/
+ 10105\nUS TV guide:      https://www.fanzo.com/en-us/tvguide/soccer/fifa
+ -world-cup/10199
+CATEGORIES:World Cup 2026\,Group B\,Marquee
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M28-a12cb43c0e90@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260619T020000
+DTEND;TZID=Europe/London:20260619T034500
+SUMMARY:WC: Mexico v South Korea
+LOCATION:Estadio Guadalajara\, Zapopan
+DESCRIPTION:Group stage — Group A\nKick-off: 02:00 UK time\nVenue: Esta
+ dio Guadalajara\, Zapopan\n\nUK:  BBC One / iPlayer\nUS:  FOX or FS1 (En
+ glish) / Telemundo or Universo (Spanish) — see US TV guide\n\nBBC matc
+ h centre: https://www.bbc.co.uk/sport/football/world-cup/scores-fixtures
+ \nUK TV guide:      https://www.fanzo.com/en/tvguide/football/fifa-world
+ -cup/10105\nUS TV guide:      https://www.fanzo.com/en-us/tvguide/soccer
+ /fifa-world-cup/10199
+CATEGORIES:World Cup 2026\,Group A\,Marquee
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M29-3b42650d12fe@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260619T200000
+DTEND;TZID=Europe/London:20260619T214500
+SUMMARY:WC: United States v Australia
+LOCATION:Seattle Stadium\, Seattle
+DESCRIPTION:Group stage — Group D\nKick-off: 20:00 UK time\nVenue: Seat
+ tle Stadium\, Seattle\n\nUK:  BBC One / iPlayer\nUS:  FOX (English) / Te
+ lemundo (Spanish)\n\nBBC match centre: https://www.bbc.co.uk/sport/footb
+ all/world-cup/scores-fixtures\nUK TV guide:      https://www.fanzo.com/e
+ n/tvguide/football/fifa-world-cup/10105\nUS TV guide:      https://www.f
+ anzo.com/en-us/tvguide/soccer/fifa-world-cup/10199
+CATEGORIES:World Cup 2026\,Group D\,Marquee
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M30-43b6003d2299@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260619T230000
+DTEND;TZID=Europe/London:20260620T004500
+SUMMARY:WC: Scotland v Morocco
+LOCATION:Boston Stadium\, Foxborough\, Massachusetts
+DESCRIPTION:Group stage — Group C\nKick-off: 23:00 UK time\nVenue: Bost
+ on Stadium\, Foxborough\, Massachusetts\n\nUK:  ITV1 / ITVX\nUS:  FOX or
+  FS1 (English) / Telemundo or Universo (Spanish) — see US TV guide\n\n
+ BBC match centre: https://www.bbc.co.uk/sport/football/world-cup/scores-
+ fixtures\nUK TV guide:      https://www.fanzo.com/en/tvguide/football/fi
+ fa-world-cup/10105\nUS TV guide:      https://www.fanzo.com/en-us/tvguid
+ e/soccer/fifa-world-cup/10199
+CATEGORIES:World Cup 2026\,Group C\,Marquee
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M31-ea3d981ff0ab@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260620T013000
+DTEND;TZID=Europe/London:20260620T031500
+SUMMARY:WC: Brazil v Haiti
+LOCATION:Philadelphia Stadium\, Philadelphia
+DESCRIPTION:Group stage — Group C\nKick-off: 01:30 UK time\nVenue: Phil
+ adelphia Stadium\, Philadelphia\n\nUK:  ITV1 / ITVX\nUS:  FOX or FS1 (En
+ glish) / Telemundo or Universo (Spanish) — see US TV guide\n\nBBC matc
+ h centre: https://www.bbc.co.uk/sport/football/world-cup/scores-fixtures
+ \nUK TV guide:      https://www.fanzo.com/en/tvguide/football/fifa-world
+ -cup/10105\nUS TV guide:      https://www.fanzo.com/en-us/tvguide/soccer
+ /fifa-world-cup/10199
+CATEGORIES:World Cup 2026\,Group C\,Marquee
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M32-02053671151d@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260620T040000
+DTEND;TZID=Europe/London:20260620T054500
+SUMMARY:WC: Turkey v Paraguay
+LOCATION:San Francisco Bay Area Stadium\, Santa Clara\, California
+DESCRIPTION:Group stage — Group D  |  KO 04:00 UK\nVenue: San Francisco
+  Bay Area Stadium\, Santa Clara\, California\nUK: BBC One / iPlayer  |  
+ US: FOX or FS1 (English) / Telemundo or Universo (Spanish) — see US TV
+  guide\nLive: https://www.bbc.co.uk/sport/football/world-cup/scores-fixt
+ ures
+CATEGORIES:World Cup 2026\,Group D
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M33-2941029f1374@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260620T180000
+DTEND;TZID=Europe/London:20260620T194500
+SUMMARY:WC: Netherlands v Sweden
+LOCATION:Houston Stadium\, Houston
+DESCRIPTION:Group stage — Group F\nKick-off: 18:00 UK time\nVenue: Hous
+ ton Stadium\, Houston\n\nUK:  BBC One / iPlayer\nUS:  FOX or FS1 (Englis
+ h) / Telemundo or Universo (Spanish) — see US TV guide\n\nBBC match ce
+ ntre: https://www.bbc.co.uk/sport/football/world-cup/scores-fixtures\nUK
+  TV guide:      https://www.fanzo.com/en/tvguide/football/fifa-world-cup
+ /10105\nUS TV guide:      https://www.fanzo.com/en-us/tvguide/soccer/fif
+ a-world-cup/10199
+CATEGORIES:World Cup 2026\,Group F\,Marquee
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M34-f884b7806d05@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260620T210000
+DTEND;TZID=Europe/London:20260620T224500
+SUMMARY:WC: Germany v Ivory Coast
+LOCATION:Toronto Stadium\, Toronto
+DESCRIPTION:Group stage — Group E\nKick-off: 21:00 UK time\nVenue: Toro
+ nto Stadium\, Toronto\n\nUK:  ITV1 / ITVX\nUS:  FOX or FS1 (English) / T
+ elemundo or Universo (Spanish) — see US TV guide\n\nBBC match centre: 
+ https://www.bbc.co.uk/sport/football/world-cup/scores-fixtures\nUK TV gu
+ ide:      https://www.fanzo.com/en/tvguide/football/fifa-world-cup/10105
+ \nUS TV guide:      https://www.fanzo.com/en-us/tvguide/soccer/fifa-worl
+ d-cup/10199
+CATEGORIES:World Cup 2026\,Group E\,Marquee
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M35-51630a3f0bf7@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260621T010000
+DTEND;TZID=Europe/London:20260621T024500
+SUMMARY:WC: Ecuador v Curacao
+LOCATION:Kansas City Stadium\, Kansas City
+DESCRIPTION:Group stage — Group E  |  KO 01:00 UK\nVenue: Kansas City S
+ tadium\, Kansas City\nUK: BBC One / iPlayer  |  US: FOX or FS1 (English)
+  / Telemundo or Universo (Spanish) — see US TV guide\nLive: https://ww
+ w.bbc.co.uk/sport/football/world-cup/scores-fixtures
+CATEGORIES:World Cup 2026\,Group E
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M36-45efc85dda54@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260621T050000
+DTEND;TZID=Europe/London:20260621T064500
+SUMMARY:WC: Tunisia v Japan
+LOCATION:Estadio Monterrey\, Guadalupe
+DESCRIPTION:Group stage — Group F  |  KO 05:00 UK\nVenue: Estadio Monte
+ rrey\, Guadalupe\nUK: BBC One / iPlayer  |  US: FOX or FS1 (English) / T
+ elemundo or Universo (Spanish) — see US TV guide\nLive: https://www.bb
+ c.co.uk/sport/football/world-cup/scores-fixtures
+CATEGORIES:World Cup 2026\,Group F
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M37-76f3a37cefc1@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260621T170000
+DTEND;TZID=Europe/London:20260621T184500
+SUMMARY:WC: Spain v Saudi Arabia
+LOCATION:Atlanta Stadium\, Atlanta
+DESCRIPTION:Group stage — Group H\nKick-off: 17:00 UK time\nVenue: Atla
+ nta Stadium\, Atlanta\n\nUK:  BBC One / iPlayer\nUS:  FOX or FS1 (Englis
+ h) / Telemundo or Universo (Spanish) — see US TV guide\n\nBBC match ce
+ ntre: https://www.bbc.co.uk/sport/football/world-cup/scores-fixtures\nUK
+  TV guide:      https://www.fanzo.com/en/tvguide/football/fifa-world-cup
+ /10105\nUS TV guide:      https://www.fanzo.com/en-us/tvguide/soccer/fif
+ a-world-cup/10199
+CATEGORIES:World Cup 2026\,Group H\,Marquee
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M38-7be4683cb332@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260621T200000
+DTEND;TZID=Europe/London:20260621T214500
+SUMMARY:WC: Belgium v Iran
+LOCATION:Los Angeles Stadium\, Inglewood\, California
+DESCRIPTION:Group stage — Group G\nKick-off: 20:00 UK time\nVenue: Los 
+ Angeles Stadium\, Inglewood\, California\n\nUK:  ITV1 / ITVX\nUS:  FOX o
+ r FS1 (English) / Telemundo or Universo (Spanish) — see US TV guide\n\
+ nBBC match centre: https://www.bbc.co.uk/sport/football/world-cup/scores
+ -fixtures\nUK TV guide:      https://www.fanzo.com/en/tvguide/football/f
+ ifa-world-cup/10105\nUS TV guide:      https://www.fanzo.com/en-us/tvgui
+ de/soccer/fifa-world-cup/10199
+CATEGORIES:World Cup 2026\,Group G\,Marquee
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M39-ec6821536fab@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260621T230000
+DTEND;TZID=Europe/London:20260622T004500
+SUMMARY:WC: Uruguay v Cape Verde
+LOCATION:Miami Stadium\, Miami Gardens\, Florida
+DESCRIPTION:Group stage — Group H\nKick-off: 23:00 UK time\nVenue: Miam
+ i Stadium\, Miami Gardens\, Florida\n\nUK:  BBC One / iPlayer\nUS:  FOX 
+ or FS1 (English) / Telemundo or Universo (Spanish) — see US TV guide\n
+ \nBBC match centre: https://www.bbc.co.uk/sport/football/world-cup/score
+ s-fixtures\nUK TV guide:      https://www.fanzo.com/en/tvguide/football/
+ fifa-world-cup/10105\nUS TV guide:      https://www.fanzo.com/en-us/tvgu
+ ide/soccer/fifa-world-cup/10199
+CATEGORIES:World Cup 2026\,Group H\,Marquee
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M40-4408cded5350@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260622T020000
+DTEND;TZID=Europe/London:20260622T034500
+SUMMARY:WC: New Zealand v Egypt
+LOCATION:BC Place Vancouver\, Vancouver
+DESCRIPTION:Group stage — Group G  |  KO 02:00 UK\nVenue: BC Place Vanc
+ ouver\, Vancouver\nUK: BBC One / iPlayer  |  US: FOX or FS1 (English) / 
+ Telemundo or Universo (Spanish) — see US TV guide\nLive: https://www.b
+ bc.co.uk/sport/football/world-cup/scores-fixtures
+CATEGORIES:World Cup 2026\,Group G
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M41-d1912129def0@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260622T180000
+DTEND;TZID=Europe/London:20260622T194500
+SUMMARY:WC: Argentina v Austria
+LOCATION:Dallas Stadium\, Arlington\, Texas
+DESCRIPTION:Group stage — Group J\nKick-off: 18:00 UK time\nVenue: Dall
+ as Stadium\, Arlington\, Texas\n\nUK:  BBC One / iPlayer\nUS:  FOX or FS
+ 1 (English) / Telemundo or Universo (Spanish) — see US TV guide\n\nBBC
+  match centre: https://www.bbc.co.uk/sport/football/world-cup/scores-fix
+ tures\nUK TV guide:      https://www.fanzo.com/en/tvguide/football/fifa-
+ world-cup/10105\nUS TV guide:      https://www.fanzo.com/en-us/tvguide/s
+ occer/fifa-world-cup/10199
+CATEGORIES:World Cup 2026\,Group J\,Marquee
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M42-55ae847f74ca@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260622T220000
+DTEND;TZID=Europe/London:20260622T234500
+SUMMARY:WC: France v Iraq
+LOCATION:Philadelphia Stadium\, Philadelphia
+DESCRIPTION:Group stage — Group I\nKick-off: 22:00 UK time\nVenue: Phil
+ adelphia Stadium\, Philadelphia\n\nUK:  BBC One / iPlayer\nUS:  FOX or F
+ S1 (English) / Telemundo or Universo (Spanish) — see US TV guide\n\nBB
+ C match centre: https://www.bbc.co.uk/sport/football/world-cup/scores-fi
+ xtures\nUK TV guide:      https://www.fanzo.com/en/tvguide/football/fifa
+ -world-cup/10105\nUS TV guide:      https://www.fanzo.com/en-us/tvguide/
+ soccer/fifa-world-cup/10199
+CATEGORIES:World Cup 2026\,Group I\,Marquee
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M43-b2488ff7bd5c@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260623T010000
+DTEND;TZID=Europe/London:20260623T024500
+SUMMARY:WC: Norway v Senegal
+LOCATION:Toronto Stadium\, Toronto
+DESCRIPTION:Group stage — Group I  |  KO 01:00 UK\nVenue: Toronto Stadi
+ um\, Toronto\nUK: BBC One / iPlayer  |  US: FOX or FS1 (English) / Telem
+ undo or Universo (Spanish) — see US TV guide\nLive: https://www.bbc.co
+ .uk/sport/football/world-cup/scores-fixtures
+CATEGORIES:World Cup 2026\,Group I
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M44-a76a872fe673@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260623T040000
+DTEND;TZID=Europe/London:20260623T054500
+SUMMARY:WC: Jordan v Algeria
+LOCATION:San Francisco Bay Area Stadium\, Santa Clara\, California
+DESCRIPTION:Group stage — Group J  |  KO 04:00 UK\nVenue: San Francisco
+  Bay Area Stadium\, Santa Clara\, California\nUK: BBC One / iPlayer  |  
+ US: FOX or FS1 (English) / Telemundo or Universo (Spanish) — see US TV
+  guide\nLive: https://www.bbc.co.uk/sport/football/world-cup/scores-fixt
+ ures
+CATEGORIES:World Cup 2026\,Group J
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M45-6426696b04b2@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260623T180000
+DTEND;TZID=Europe/London:20260623T194500
+SUMMARY:WC: Portugal v Uzbekistan
+LOCATION:Houston Stadium\, Houston
+DESCRIPTION:Group stage — Group K\nKick-off: 18:00 UK time\nVenue: Hous
+ ton Stadium\, Houston\n\nUK:  ITV1 / ITVX\nUS:  FOX or FS1 (English) / T
+ elemundo or Universo (Spanish) — see US TV guide\n\nBBC match centre: 
+ https://www.bbc.co.uk/sport/football/world-cup/scores-fixtures\nUK TV gu
+ ide:      https://www.fanzo.com/en/tvguide/football/fifa-world-cup/10105
+ \nUS TV guide:      https://www.fanzo.com/en-us/tvguide/soccer/fifa-worl
+ d-cup/10199
+CATEGORIES:World Cup 2026\,Group K\,Marquee
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M46-a142a73668b7@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260623T210000
+DTEND;TZID=Europe/London:20260623T224500
+SUMMARY:WC: England v Ghana  [ENGLAND]
+LOCATION:Boston Stadium\, Foxborough\, Massachusetts
+DESCRIPTION:Group stage — Group L\nKick-off: 21:00 UK time\nVenue: Bost
+ on Stadium\, Foxborough\, Massachusetts\n\n── BROADCAST ──\nUK: 
+  BBC One / iPlayer\nUS:  FOX or FS1 (English) / Telemundo or Universo (S
+ panish) — see US TV guide\n\n── LINKS ──\nBBC match centre / l
+ ineups: https://www.bbc.co.uk/sport/football/world-cup/scores-fixtures\n
+ FIFA fixtures hub:          https://www.fifa.com/en/tournaments/mens/wor
+ ldcup/canadamexicousa2026/scores-fixtures\nUK TV guide:                h
+ ttps://www.fanzo.com/en/tvguide/football/fifa-world-cup/10105\nUS TV gui
+ de:                https://www.fanzo.com/en-us/tvguide/soccer/fifa-world
+ -cup/10199\n\n── PREP ──\nLineups confirmed ~60 minutes before k
+ ick-off — tap the BBC link above.\nReminders set for 60 min and 15 min
+  before kick-off.\n\n(Subscribed feed — regenerated periodically. Gene
+ rated 2026-05-21 23:05 UTC.)
+CATEGORIES:World Cup 2026\,Group L\,England
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:England kick off in 60 minutes — WC: England v Ghana  [ENGL
+ AND]
+TRIGGER:-PT60M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:England kick off in 15 minutes — WC: England v Ghana  [ENGL
+ AND]
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:M47-98c6a824b215@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260624T000000
+DTEND;TZID=Europe/London:20260624T014500
+SUMMARY:WC: Panama v Croatia
+LOCATION:Boston Stadium\, Foxborough\, Massachusetts
+DESCRIPTION:Group stage — Group L  |  KO 00:00 UK\nVenue: Boston Stadiu
+ m\, Foxborough\, Massachusetts\nUK: BBC One / iPlayer  |  US: FOX or FS1
+  (English) / Telemundo or Universo (Spanish) — see US TV guide\nLive: 
+ https://www.bbc.co.uk/sport/football/world-cup/scores-fixtures
+CATEGORIES:World Cup 2026\,Group L
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M48-bcf8426e660b@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260624T030000
+DTEND;TZID=Europe/London:20260624T044500
+SUMMARY:WC: Colombia v DR Congo
+LOCATION:Estadio Guadalajara\, Zapopan
+DESCRIPTION:Group stage — Group K  |  KO 03:00 UK\nVenue: Estadio Guada
+ lajara\, Zapopan\nUK: BBC One / iPlayer  |  US: FOX or FS1 (English) / T
+ elemundo or Universo (Spanish) — see US TV guide\nLive: https://www.bb
+ c.co.uk/sport/football/world-cup/scores-fixtures
+CATEGORIES:World Cup 2026\,Group K
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M49-429826ad86ba@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260624T200000
+DTEND;TZID=Europe/London:20260624T214500
+SUMMARY:WC: Switzerland v Canada
+LOCATION:BC Place Vancouver\, Vancouver
+DESCRIPTION:Group stage — Group B\nKick-off: 20:00 UK time\nVenue: BC P
+ lace Vancouver\, Vancouver\n\nUK:  BBC One / iPlayer\nUS:  FOX or FS1 (E
+ nglish) / Telemundo or Universo (Spanish) — see US TV guide\n\nBBC mat
+ ch centre: https://www.bbc.co.uk/sport/football/world-cup/scores-fixture
+ s\nUK TV guide:      https://www.fanzo.com/en/tvguide/football/fifa-worl
+ d-cup/10105\nUS TV guide:      https://www.fanzo.com/en-us/tvguide/socce
+ r/fifa-world-cup/10199
+CATEGORIES:World Cup 2026\,Group B\,Marquee
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M50-e91fcef7006c@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260624T200000
+DTEND;TZID=Europe/London:20260624T214500
+SUMMARY:WC: Bosnia and Herzegovina v Qatar
+LOCATION:Seattle Stadium\, Seattle
+DESCRIPTION:Group stage — Group B  |  KO 20:00 UK\nVenue: Seattle Stadi
+ um\, Seattle\nUK: BBC One / iPlayer  |  US: FOX or FS1 (English) / Telem
+ undo or Universo (Spanish) — see US TV guide\nLive: https://www.bbc.co
+ .uk/sport/football/world-cup/scores-fixtures
+CATEGORIES:World Cup 2026\,Group B
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M51-6f6274f700fb@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260624T230000
+DTEND;TZID=Europe/London:20260625T004500
+SUMMARY:WC: Morocco v Haiti
+LOCATION:Atlanta Stadium\, Atlanta
+DESCRIPTION:Group stage — Group C  |  KO 23:00 UK\nVenue: Atlanta Stadi
+ um\, Atlanta\nUK: BBC One / iPlayer  |  US: FOX or FS1 (English) / Telem
+ undo or Universo (Spanish) — see US TV guide\nLive: https://www.bbc.co
+ .uk/sport/football/world-cup/scores-fixtures
+CATEGORIES:World Cup 2026\,Group C
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M52-9c068a25cd96@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260624T230000
+DTEND;TZID=Europe/London:20260625T004500
+SUMMARY:WC: Scotland v Brazil
+LOCATION:Miami Stadium\, Miami Gardens\, Florida
+DESCRIPTION:Group stage — Group C\nKick-off: 23:00 UK time\nVenue: Miam
+ i Stadium\, Miami Gardens\, Florida\n\nUK:  BBC One / iPlayer\nUS:  FOX 
+ or FS1 (English) / Telemundo or Universo (Spanish) — see US TV guide\n
+ \nBBC match centre: https://www.bbc.co.uk/sport/football/world-cup/score
+ s-fixtures\nUK TV guide:      https://www.fanzo.com/en/tvguide/football/
+ fifa-world-cup/10105\nUS TV guide:      https://www.fanzo.com/en-us/tvgu
+ ide/soccer/fifa-world-cup/10199
+CATEGORIES:World Cup 2026\,Group C\,Marquee
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M53-88aabe057840@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260625T020000
+DTEND;TZID=Europe/London:20260625T034500
+SUMMARY:WC: South Africa v South Korea
+LOCATION:Estadio Monterrey\, Guadalupe
+DESCRIPTION:Group stage — Group A  |  KO 02:00 UK\nVenue: Estadio Monte
+ rrey\, Guadalupe\nUK: BBC One / iPlayer  |  US: FOX or FS1 (English) / T
+ elemundo or Universo (Spanish) — see US TV guide\nLive: https://www.bb
+ c.co.uk/sport/football/world-cup/scores-fixtures
+CATEGORIES:World Cup 2026\,Group A
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M54-d589688293e7@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260625T020000
+DTEND;TZID=Europe/London:20260625T034500
+SUMMARY:WC: Czech Republic v Mexico
+LOCATION:Estadio Azteca\, Mexico City
+DESCRIPTION:Group stage — Group A\nKick-off: 02:00 UK time\nVenue: Esta
+ dio Azteca\, Mexico City\n\nUK:  BBC One / iPlayer\nUS:  FOX or FS1 (Eng
+ lish) / Telemundo or Universo (Spanish) — see US TV guide\n\nBBC match
+  centre: https://www.bbc.co.uk/sport/football/world-cup/scores-fixtures\
+ nUK TV guide:      https://www.fanzo.com/en/tvguide/football/fifa-world-
+ cup/10105\nUS TV guide:      https://www.fanzo.com/en-us/tvguide/soccer/
+ fifa-world-cup/10199
+CATEGORIES:World Cup 2026\,Group A\,Marquee
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M55-69e33fb58ce6@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260625T210000
+DTEND;TZID=Europe/London:20260625T224500
+SUMMARY:WC: Curacao v Ivory Coast
+LOCATION:Philadelphia Stadium\, Philadelphia
+DESCRIPTION:Group stage — Group E  |  KO 21:00 UK\nVenue: Philadelphia 
+ Stadium\, Philadelphia\nUK: BBC One / iPlayer  |  US: FOX or FS1 (Englis
+ h) / Telemundo or Universo (Spanish) — see US TV guide\nLive: https://
+ www.bbc.co.uk/sport/football/world-cup/scores-fixtures
+CATEGORIES:World Cup 2026\,Group E
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M56-d57971c47b29@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260625T210000
+DTEND;TZID=Europe/London:20260625T224500
+SUMMARY:WC: Ecuador v Germany
+LOCATION:New York New Jersey Stadium\, East Rutherford\, New Jersey
+DESCRIPTION:Group stage — Group E\nKick-off: 21:00 UK time\nVenue: New 
+ York New Jersey Stadium\, East Rutherford\, New Jersey\n\nUK:  BBC One /
+  iPlayer\nUS:  FOX or FS1 (English) / Telemundo or Universo (Spanish) 
+ — see US TV guide\n\nBBC match centre: https://www.bbc.co.uk/sport/foo
+ tball/world-cup/scores-fixtures\nUK TV guide:      https://www.fanzo.com
+ /en/tvguide/football/fifa-world-cup/10105\nUS TV guide:      https://www
+ .fanzo.com/en-us/tvguide/soccer/fifa-world-cup/10199
+CATEGORIES:World Cup 2026\,Group E\,Marquee
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M57-8f4756f4d801@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260626T000000
+DTEND;TZID=Europe/London:20260626T014500
+SUMMARY:WC: Tunisia v Netherlands
+LOCATION:Kansas City Stadium\, Kansas City
+DESCRIPTION:Group stage — Group F\nKick-off: 00:00 UK time\nVenue: Kans
+ as City Stadium\, Kansas City\n\nUK:  BBC One / iPlayer\nUS:  FOX or FS1
+  (English) / Telemundo or Universo (Spanish) — see US TV guide\n\nBBC 
+ match centre: https://www.bbc.co.uk/sport/football/world-cup/scores-fixt
+ ures\nUK TV guide:      https://www.fanzo.com/en/tvguide/football/fifa-w
+ orld-cup/10105\nUS TV guide:      https://www.fanzo.com/en-us/tvguide/so
+ ccer/fifa-world-cup/10199
+CATEGORIES:World Cup 2026\,Group F\,Marquee
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M58-efccf8d6b4ac@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260626T000000
+DTEND;TZID=Europe/London:20260626T014500
+SUMMARY:WC: Japan v Sweden
+LOCATION:Dallas Stadium\, Arlington\, Texas
+DESCRIPTION:Group stage — Group F  |  KO 00:00 UK\nVenue: Dallas Stadiu
+ m\, Arlington\, Texas\nUK: BBC One / iPlayer  |  US: FOX or FS1 (English
+ ) / Telemundo or Universo (Spanish) — see US TV guide\nLive: https://w
+ ww.bbc.co.uk/sport/football/world-cup/scores-fixtures
+CATEGORIES:World Cup 2026\,Group F
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M59-f2fcb67c1db3@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260626T030000
+DTEND;TZID=Europe/London:20260626T044500
+SUMMARY:WC: Turkey v United States
+LOCATION:Los Angeles Stadium\, Inglewood\, California
+DESCRIPTION:Group stage — Group D\nKick-off: 03:00 UK time\nVenue: Los 
+ Angeles Stadium\, Inglewood\, California\n\nUK:  BBC One / iPlayer\nUS: 
+  FOX (English) / Telemundo (Spanish)\n\nBBC match centre: https://www.bb
+ c.co.uk/sport/football/world-cup/scores-fixtures\nUK TV guide:      http
+ s://www.fanzo.com/en/tvguide/football/fifa-world-cup/10105\nUS TV guide:
+       https://www.fanzo.com/en-us/tvguide/soccer/fifa-world-cup/10199
+CATEGORIES:World Cup 2026\,Group D\,Marquee
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M60-f5147f1ab7ca@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260626T030000
+DTEND;TZID=Europe/London:20260626T044500
+SUMMARY:WC: Paraguay v Australia
+LOCATION:San Francisco Bay Area Stadium\, Santa Clara\, California
+DESCRIPTION:Group stage — Group D  |  KO 03:00 UK\nVenue: San Francisco
+  Bay Area Stadium\, Santa Clara\, California\nUK: ITV1 / ITVX  |  US: FO
+ X or FS1 (English) / Telemundo or Universo (Spanish) — see US TV guide
+ \nLive: https://www.bbc.co.uk/sport/football/world-cup/scores-fixtures
+CATEGORIES:World Cup 2026\,Group D
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M61-be00435c7222@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260626T200000
+DTEND;TZID=Europe/London:20260626T214500
+SUMMARY:WC: Norway v France
+LOCATION:Boston Stadium\, Foxborough\, Massachusetts
+DESCRIPTION:Group stage — Group I\nKick-off: 20:00 UK time\nVenue: Bost
+ on Stadium\, Foxborough\, Massachusetts\n\nUK:  BBC One / iPlayer\nUS:  
+ FOX or FS1 (English) / Telemundo or Universo (Spanish) — see US TV gui
+ de\n\nBBC match centre: https://www.bbc.co.uk/sport/football/world-cup/s
+ cores-fixtures\nUK TV guide:      https://www.fanzo.com/en/tvguide/footb
+ all/fifa-world-cup/10105\nUS TV guide:      https://www.fanzo.com/en-us/
+ tvguide/soccer/fifa-world-cup/10199
+CATEGORIES:World Cup 2026\,Group I\,Marquee
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M62-7626ed9bef8f@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260626T200000
+DTEND;TZID=Europe/London:20260626T214500
+SUMMARY:WC: Senegal v Iraq
+LOCATION:Toronto Stadium\, Toronto
+DESCRIPTION:Group stage — Group I  |  KO 20:00 UK\nVenue: Toronto Stadi
+ um\, Toronto\nUK: BBC One / iPlayer  |  US: FOX or FS1 (English) / Telem
+ undo or Universo (Spanish) — see US TV guide\nLive: https://www.bbc.co
+ .uk/sport/football/world-cup/scores-fixtures
+CATEGORIES:World Cup 2026\,Group I
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M63-33604f7b42ab@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260627T010000
+DTEND;TZID=Europe/London:20260627T024500
+SUMMARY:WC: Cape Verde v Saudi Arabia
+LOCATION:Houston Stadium\, Houston
+DESCRIPTION:Group stage — Group H  |  KO 01:00 UK\nVenue: Houston Stadi
+ um\, Houston\nUK: ITV1 / ITVX  |  US: FOX or FS1 (English) / Telemundo o
+ r Universo (Spanish) — see US TV guide\nLive: https://www.bbc.co.uk/sp
+ ort/football/world-cup/scores-fixtures
+CATEGORIES:World Cup 2026\,Group H
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M64-5a763e71c57a@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260627T010000
+DTEND;TZID=Europe/London:20260627T024500
+SUMMARY:WC: Uruguay v Spain
+LOCATION:Estadio Guadalajara\, Zapopan
+DESCRIPTION:Group stage — Group H\nKick-off: 01:00 UK time\nVenue: Esta
+ dio Guadalajara\, Zapopan\n\nUK:  ITV1 / ITVX\nUS:  FOX or FS1 (English)
+  / Telemundo or Universo (Spanish) — see US TV guide\n\nBBC match cent
+ re: https://www.bbc.co.uk/sport/football/world-cup/scores-fixtures\nUK T
+ V guide:      https://www.fanzo.com/en/tvguide/football/fifa-world-cup/1
+ 0105\nUS TV guide:      https://www.fanzo.com/en-us/tvguide/soccer/fifa-
+ world-cup/10199
+CATEGORIES:World Cup 2026\,Group H\,Marquee
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M65-1de38c5f8237@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260627T040000
+DTEND;TZID=Europe/London:20260627T054500
+SUMMARY:WC: New Zealand v Belgium
+LOCATION:BC Place Vancouver\, Vancouver
+DESCRIPTION:Group stage — Group G\nKick-off: 04:00 UK time\nVenue: BC P
+ lace Vancouver\, Vancouver\n\nUK:  BBC One / iPlayer\nUS:  FOX or FS1 (E
+ nglish) / Telemundo or Universo (Spanish) — see US TV guide\n\nBBC mat
+ ch centre: https://www.bbc.co.uk/sport/football/world-cup/scores-fixture
+ s\nUK TV guide:      https://www.fanzo.com/en/tvguide/football/fifa-worl
+ d-cup/10105\nUS TV guide:      https://www.fanzo.com/en-us/tvguide/socce
+ r/fifa-world-cup/10199
+CATEGORIES:World Cup 2026\,Group G\,Marquee
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M66-2830be75c6dd@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260627T040000
+DTEND;TZID=Europe/London:20260627T054500
+SUMMARY:WC: Egypt v Iran
+LOCATION:Seattle Stadium\, Seattle
+DESCRIPTION:Group stage — Group G  |  KO 04:00 UK\nVenue: Seattle Stadi
+ um\, Seattle\nUK: BBC One / iPlayer  |  US: FOX or FS1 (English) / Telem
+ undo or Universo (Spanish) — see US TV guide\nLive: https://www.bbc.co
+ .uk/sport/football/world-cup/scores-fixtures
+CATEGORIES:World Cup 2026\,Group G
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M67-66a763f90cd7@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260627T220000
+DTEND;TZID=Europe/London:20260627T234500
+SUMMARY:WC: Panama v England  [ENGLAND]
+LOCATION:New York New Jersey Stadium\, East Rutherford\, New Jersey
+DESCRIPTION:Group stage — Group L\nKick-off: 22:00 UK time\nVenue: New 
+ York New Jersey Stadium\, East Rutherford\, New Jersey\n\n── BROADCA
+ ST ──\nUK:  ITV1 / ITVX\nUS:  FOX or FS1 (English) / Telemundo or Un
+ iverso (Spanish) — see US TV guide\n\n── LINKS ──\nBBC match c
+ entre / lineups: https://www.bbc.co.uk/sport/football/world-cup/scores-f
+ ixtures\nFIFA fixtures hub:          https://www.fifa.com/en/tournaments
+ /mens/worldcup/canadamexicousa2026/scores-fixtures\nUK TV guide:        
+         https://www.fanzo.com/en/tvguide/football/fifa-world-cup/10105\n
+ US TV guide:                https://www.fanzo.com/en-us/tvguide/soccer/f
+ ifa-world-cup/10199\n\n── PREP ──\nLineups confirmed ~60 minutes
+  before kick-off — tap the BBC link above.\nReminders set for 60 min a
+ nd 15 min before kick-off.\n\n(Subscribed feed — regenerated periodica
+ lly. Generated 2026-05-21 23:05 UTC.)
+CATEGORIES:World Cup 2026\,Group L\,England
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:England kick off in 60 minutes — WC: Panama v England  [ENG
+ LAND]
+TRIGGER:-PT60M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:England kick off in 15 minutes — WC: Panama v England  [ENG
+ LAND]
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:M68-d11c5c6265b7@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260627T220000
+DTEND;TZID=Europe/London:20260627T234500
+SUMMARY:WC: Croatia v Ghana
+LOCATION:Philadelphia Stadium\, Philadelphia
+DESCRIPTION:Group stage — Group L  |  KO 22:00 UK\nVenue: Philadelphia 
+ Stadium\, Philadelphia\nUK: ITV1 / ITVX  |  US: FOX or FS1 (English) / T
+ elemundo or Universo (Spanish) — see US TV guide\nLive: https://www.bb
+ c.co.uk/sport/football/world-cup/scores-fixtures
+CATEGORIES:World Cup 2026\,Group L
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M69-844e7534e48c@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260628T003000
+DTEND;TZID=Europe/London:20260628T021500
+SUMMARY:WC: Colombia v Portugal
+LOCATION:Miami Stadium\, Miami Gardens\, Florida
+DESCRIPTION:Group stage — Group K\nKick-off: 00:30 UK time\nVenue: Miam
+ i Stadium\, Miami Gardens\, Florida\n\nUK:  BBC One / iPlayer\nUS:  FOX 
+ or FS1 (English) / Telemundo or Universo (Spanish) — see US TV guide\n
+ \nBBC match centre: https://www.bbc.co.uk/sport/football/world-cup/score
+ s-fixtures\nUK TV guide:      https://www.fanzo.com/en/tvguide/football/
+ fifa-world-cup/10105\nUS TV guide:      https://www.fanzo.com/en-us/tvgu
+ ide/soccer/fifa-world-cup/10199
+CATEGORIES:World Cup 2026\,Group K\,Marquee
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M70-060bc3123ccd@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260628T003000
+DTEND;TZID=Europe/London:20260628T021500
+SUMMARY:WC: DR Congo v Uzbekistan
+LOCATION:Atlanta Stadium\, Atlanta
+DESCRIPTION:Group stage — Group K  |  KO 00:30 UK\nVenue: Atlanta Stadi
+ um\, Atlanta\nUK: BBC One / iPlayer  |  US: FOX or FS1 (English) / Telem
+ undo or Universo (Spanish) — see US TV guide\nLive: https://www.bbc.co
+ .uk/sport/football/world-cup/scores-fixtures
+CATEGORIES:World Cup 2026\,Group K
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M71-b35caf42ef0e@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260628T030000
+DTEND;TZID=Europe/London:20260628T044500
+SUMMARY:WC: Algeria v Austria
+LOCATION:Kansas City Stadium\, Kansas City
+DESCRIPTION:Group stage — Group J  |  KO 03:00 UK\nVenue: Kansas City S
+ tadium\, Kansas City\nUK: BBC One / iPlayer  |  US: FOX or FS1 (English)
+  / Telemundo or Universo (Spanish) — see US TV guide\nLive: https://ww
+ w.bbc.co.uk/sport/football/world-cup/scores-fixtures
+CATEGORIES:World Cup 2026\,Group J
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M72-83becbd45862@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260628T030000
+DTEND;TZID=Europe/London:20260628T044500
+SUMMARY:WC: Jordan v Argentina
+LOCATION:Dallas Stadium\, Arlington\, Texas
+DESCRIPTION:Group stage — Group J\nKick-off: 03:00 UK time\nVenue: Dall
+ as Stadium\, Arlington\, Texas\n\nUK:  BBC One / iPlayer\nUS:  FOX or FS
+ 1 (English) / Telemundo or Universo (Spanish) — see US TV guide\n\nBBC
+  match centre: https://www.bbc.co.uk/sport/football/world-cup/scores-fix
+ tures\nUK TV guide:      https://www.fanzo.com/en/tvguide/football/fifa-
+ world-cup/10105\nUS TV guide:      https://www.fanzo.com/en-us/tvguide/s
+ occer/fifa-world-cup/10199
+CATEGORIES:World Cup 2026\,Group J\,Marquee
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M73-ead1ec523487@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260628T200000
+DTEND;TZID=Europe/London:20260628T221500
+SUMMARY:WC: R32: Runner-up Group A v Runner-up Group B
+LOCATION:Los Angeles Stadium\, Inglewood\, California
+DESCRIPTION:Round of 32  |  KO 20:00 UK\nVenue: Los Angeles Stadium\, Ing
+ lewood\, California\nUK: BBC or ITV (top picks: BBC has 3 of top 5\, ITV
+  has 5 of top 9). See UK TV guide.  |  US: FOX or FS1 (English) / Telemu
+ ndo or Universo (Spanish) — see US TV guide\nLive: https://www.bbc.co.
+ uk/sport/football/world-cup/scores-fixtures
+CATEGORIES:World Cup 2026\,Knockout
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M74-788b5501d0c3@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260629T180000
+DTEND;TZID=Europe/London:20260629T201500
+SUMMARY:WC: R32: Winner Group C v Runner-up Group F
+LOCATION:Houston Stadium\, Houston
+DESCRIPTION:Round of 32  |  KO 18:00 UK\nVenue: Houston Stadium\, Houston
+ \nUK: BBC or ITV (top picks: BBC has 3 of top 5\, ITV has 5 of top 9). S
+ ee UK TV guide.  |  US: FOX or FS1 (English) / Telemundo or Universo (Sp
+ anish) — see US TV guide\nLive: https://www.bbc.co.uk/sport/football/w
+ orld-cup/scores-fixtures
+CATEGORIES:World Cup 2026\,Knockout
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M75-6c71e43bb817@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260629T213000
+DTEND;TZID=Europe/London:20260629T234500
+SUMMARY:WC: R32: Winner Group E v 3rd Group A/B/C/D/F
+LOCATION:Boston Stadium\, Foxborough\, Massachusetts
+DESCRIPTION:Round of 32  |  KO 21:30 UK\nVenue: Boston Stadium\, Foxborou
+ gh\, Massachusetts\nUK: BBC or ITV (top picks: BBC has 3 of top 5\, ITV 
+ has 5 of top 9). See UK TV guide.  |  US: FOX or FS1 (English) / Telemun
+ do or Universo (Spanish) — see US TV guide\nLive: https://www.bbc.co.u
+ k/sport/football/world-cup/scores-fixtures
+CATEGORIES:World Cup 2026\,Knockout
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M76-c26ce9fefdd4@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260630T020000
+DTEND;TZID=Europe/London:20260630T041500
+SUMMARY:WC: R32: Winner Group F v Runner-up Group C
+LOCATION:Estadio Monterrey\, Guadalupe
+DESCRIPTION:Round of 32  |  KO 02:00 UK\nVenue: Estadio Monterrey\, Guada
+ lupe\nUK: BBC or ITV (top picks: BBC has 3 of top 5\, ITV has 5 of top 9
+ ). See UK TV guide.  |  US: FOX or FS1 (English) / Telemundo or Universo
+  (Spanish) — see US TV guide\nLive: https://www.bbc.co.uk/sport/footba
+ ll/world-cup/scores-fixtures
+CATEGORIES:World Cup 2026\,Knockout
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M77-4bd7af3ee16c@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260630T180000
+DTEND;TZID=Europe/London:20260630T201500
+SUMMARY:WC: R32: Runner-up Group E v Runner-up Group I
+LOCATION:Dallas Stadium\, Arlington\, Texas
+DESCRIPTION:Round of 32  |  KO 18:00 UK\nVenue: Dallas Stadium\, Arlingto
+ n\, Texas\nUK: BBC or ITV (top picks: BBC has 3 of top 5\, ITV has 5 of 
+ top 9). See UK TV guide.  |  US: FOX or FS1 (English) / Telemundo or Uni
+ verso (Spanish) — see US TV guide\nLive: https://www.bbc.co.uk/sport/f
+ ootball/world-cup/scores-fixtures
+CATEGORIES:World Cup 2026\,Knockout
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M78-0c2dce30c04a@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260630T220000
+DTEND;TZID=Europe/London:20260701T001500
+SUMMARY:WC: R32: Winner Group I v 3rd Group C/D/F/G/H
+LOCATION:New York New Jersey Stadium\, East Rutherford\, New Jersey
+DESCRIPTION:Round of 32  |  KO 22:00 UK\nVenue: New York New Jersey Stadi
+ um\, East Rutherford\, New Jersey\nUK: BBC or ITV (top picks: BBC has 3 
+ of top 5\, ITV has 5 of top 9). See UK TV guide.  |  US: FOX or FS1 (Eng
+ lish) / Telemundo or Universo (Spanish) — see US TV guide\nLive: https
+ ://www.bbc.co.uk/sport/football/world-cup/scores-fixtures
+CATEGORIES:World Cup 2026\,Knockout
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M79-78321d1613c0@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260701T020000
+DTEND;TZID=Europe/London:20260701T041500
+SUMMARY:WC: R32: Winner Group A v 3rd Group C/E/F/H/I
+LOCATION:Estadio Azteca\, Mexico City
+DESCRIPTION:Round of 32  |  KO 02:00 UK\nVenue: Estadio Azteca\, Mexico C
+ ity\nUK: BBC or ITV (top picks: BBC has 3 of top 5\, ITV has 5 of top 9)
+ . See UK TV guide.  |  US: FOX or FS1 (English) / Telemundo or Universo 
+ (Spanish) — see US TV guide\nLive: https://www.bbc.co.uk/sport/footbal
+ l/world-cup/scores-fixtures
+CATEGORIES:World Cup 2026\,Knockout
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M80-536430615469@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260701T170000
+DTEND;TZID=Europe/London:20260701T191500
+SUMMARY:WC: R32: Winner Group L v 3rd Group E/H/I/J/K
+LOCATION:Atlanta Stadium\, Atlanta
+DESCRIPTION:Round of 32  |  KO 17:00 UK\nVenue: Atlanta Stadium\, Atlanta
+ \nUK: BBC or ITV (top picks: BBC has 3 of top 5\, ITV has 5 of top 9). S
+ ee UK TV guide.  |  US: FOX or FS1 (English) / Telemundo or Universo (Sp
+ anish) — see US TV guide\nLive: https://www.bbc.co.uk/sport/football/w
+ orld-cup/scores-fixtures
+CATEGORIES:World Cup 2026\,Knockout
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M81-6d5f28a0a081@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260701T210000
+DTEND;TZID=Europe/London:20260701T231500
+SUMMARY:WC: R32: Winner Group G v 3rd Group A/E/H/I/J
+LOCATION:Seattle Stadium\, Seattle
+DESCRIPTION:Round of 32  |  KO 21:00 UK\nVenue: Seattle Stadium\, Seattle
+ \nUK: BBC or ITV (top picks: BBC has 3 of top 5\, ITV has 5 of top 9). S
+ ee UK TV guide.  |  US: FOX or FS1 (English) / Telemundo or Universo (Sp
+ anish) — see US TV guide\nLive: https://www.bbc.co.uk/sport/football/w
+ orld-cup/scores-fixtures
+CATEGORIES:World Cup 2026\,Knockout
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M82-b253d9f03ddb@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260702T010000
+DTEND;TZID=Europe/London:20260702T031500
+SUMMARY:WC: R32: Winner Group D v 3rd Group B/E/F/I/J
+LOCATION:San Francisco Bay Area Stadium\, Santa Clara\, California
+DESCRIPTION:Round of 32  |  KO 01:00 UK\nVenue: San Francisco Bay Area St
+ adium\, Santa Clara\, California\nUK: BBC or ITV (top picks: BBC has 3 o
+ f top 5\, ITV has 5 of top 9). See UK TV guide.  |  US: FOX or FS1 (Engl
+ ish) / Telemundo or Universo (Spanish) — see US TV guide\nLive: https:
+ //www.bbc.co.uk/sport/football/world-cup/scores-fixtures
+CATEGORIES:World Cup 2026\,Knockout
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M83-a4b22d1af773@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260702T200000
+DTEND;TZID=Europe/London:20260702T221500
+SUMMARY:WC: R32: Winner Group H v Runner-up Group J
+LOCATION:Los Angeles Stadium\, Inglewood\, California
+DESCRIPTION:Round of 32  |  KO 20:00 UK\nVenue: Los Angeles Stadium\, Ing
+ lewood\, California\nUK: BBC or ITV (top picks: BBC has 3 of top 5\, ITV
+  has 5 of top 9). See UK TV guide.  |  US: FOX or FS1 (English) / Telemu
+ ndo or Universo (Spanish) — see US TV guide\nLive: https://www.bbc.co.
+ uk/sport/football/world-cup/scores-fixtures
+CATEGORIES:World Cup 2026\,Knockout
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M84-e9e743c09f1d@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260703T000000
+DTEND;TZID=Europe/London:20260703T021500
+SUMMARY:WC: R32: Runner-up Group K v Runner-up Group L
+LOCATION:Toronto Stadium\, Toronto
+DESCRIPTION:Round of 32  |  KO 00:00 UK\nVenue: Toronto Stadium\, Toronto
+ \nUK: BBC or ITV (top picks: BBC has 3 of top 5\, ITV has 5 of top 9). S
+ ee UK TV guide.  |  US: FOX or FS1 (English) / Telemundo or Universo (Sp
+ anish) — see US TV guide\nLive: https://www.bbc.co.uk/sport/football/w
+ orld-cup/scores-fixtures
+CATEGORIES:World Cup 2026\,Knockout
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M85-d731eac762df@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260703T040000
+DTEND;TZID=Europe/London:20260703T061500
+SUMMARY:WC: R32: Winner Group B v 3rd Group E/F/G/I/J
+LOCATION:BC Place Vancouver\, Vancouver
+DESCRIPTION:Round of 32  |  KO 04:00 UK\nVenue: BC Place Vancouver\, Vanc
+ ouver\nUK: BBC or ITV (top picks: BBC has 3 of top 5\, ITV has 5 of top 
+ 9). See UK TV guide.  |  US: FOX or FS1 (English) / Telemundo or Univers
+ o (Spanish) — see US TV guide\nLive: https://www.bbc.co.uk/sport/footb
+ all/world-cup/scores-fixtures
+CATEGORIES:World Cup 2026\,Knockout
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M86-6fa29c50a91e@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260703T190000
+DTEND;TZID=Europe/London:20260703T211500
+SUMMARY:WC: R32: Runner-up Group D v Runner-up Group G
+LOCATION:Dallas Stadium\, Arlington\, Texas
+DESCRIPTION:Round of 32  |  KO 19:00 UK\nVenue: Dallas Stadium\, Arlingto
+ n\, Texas\nUK: BBC or ITV (top picks: BBC has 3 of top 5\, ITV has 5 of 
+ top 9). See UK TV guide.  |  US: FOX or FS1 (English) / Telemundo or Uni
+ verso (Spanish) — see US TV guide\nLive: https://www.bbc.co.uk/sport/f
+ ootball/world-cup/scores-fixtures
+CATEGORIES:World Cup 2026\,Knockout
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M87-d21c6f19472a@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260703T230000
+DTEND;TZID=Europe/London:20260704T011500
+SUMMARY:WC: R32: Winner Group J v Runner-up Group H
+LOCATION:Miami Stadium\, Miami Gardens\, Florida
+DESCRIPTION:Round of 32  |  KO 23:00 UK\nVenue: Miami Stadium\, Miami Gar
+ dens\, Florida\nUK: BBC or ITV (top picks: BBC has 3 of top 5\, ITV has 
+ 5 of top 9). See UK TV guide.  |  US: FOX or FS1 (English) / Telemundo o
+ r Universo (Spanish) — see US TV guide\nLive: https://www.bbc.co.uk/sp
+ ort/football/world-cup/scores-fixtures
+CATEGORIES:World Cup 2026\,Knockout
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M88-d0fb309b34ee@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260704T023000
+DTEND;TZID=Europe/London:20260704T044500
+SUMMARY:WC: R32: Winner Group K v 3rd Group D/E/I/J/L
+LOCATION:Kansas City Stadium\, Kansas City
+DESCRIPTION:Round of 32  |  KO 02:30 UK\nVenue: Kansas City Stadium\, Kan
+ sas City\nUK: BBC or ITV (top picks: BBC has 3 of top 5\, ITV has 5 of t
+ op 9). See UK TV guide.  |  US: FOX or FS1 (English) / Telemundo or Univ
+ erso (Spanish) — see US TV guide\nLive: https://www.bbc.co.uk/sport/fo
+ otball/world-cup/scores-fixtures
+CATEGORIES:World Cup 2026\,Knockout
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M89-6a9e5f075c08@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260704T180000
+DTEND;TZID=Europe/London:20260704T201500
+SUMMARY:WC: R16: Winner R32-73 v Winner R32-75
+LOCATION:Houston Stadium\, Houston
+DESCRIPTION:Round of 16\nKick-off: 18:00 UK time\nVenue: Houston Stadium\
+ , Houston\n\nUK:  BBC or ITV (BBC has 3 of top 4 picks). See UK TV guide
+ .\nUS:  FOX (English) / Telemundo or Universo (Spanish) — confirm on U
+ S TV guide\n\nBBC match centre: https://www.bbc.co.uk/sport/football/wor
+ ld-cup/scores-fixtures\nUK TV guide:      https://www.fanzo.com/en/tvgui
+ de/football/fifa-world-cup/10105\nUS TV guide:      https://www.fanzo.co
+ m/en-us/tvguide/soccer/fifa-world-cup/10199
+CATEGORIES:World Cup 2026\,Knockout\,Marquee
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M90-e8e4dfad5217@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260704T220000
+DTEND;TZID=Europe/London:20260705T001500
+SUMMARY:WC: R16: Winner R32-74 v Winner R32-77
+LOCATION:Philadelphia Stadium\, Philadelphia
+DESCRIPTION:Round of 16\nKick-off: 22:00 UK time\nVenue: Philadelphia Sta
+ dium\, Philadelphia\n\nUK:  BBC or ITV (BBC has 3 of top 4 picks). See U
+ K TV guide.\nUS:  FOX (English) / Telemundo or Universo (Spanish) — co
+ nfirm on US TV guide\n\nBBC match centre: https://www.bbc.co.uk/sport/fo
+ otball/world-cup/scores-fixtures\nUK TV guide:      https://www.fanzo.co
+ m/en/tvguide/football/fifa-world-cup/10105\nUS TV guide:      https://ww
+ w.fanzo.com/en-us/tvguide/soccer/fifa-world-cup/10199
+CATEGORIES:World Cup 2026\,Knockout\,Marquee
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M91-470509cbfca7@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260705T210000
+DTEND;TZID=Europe/London:20260705T231500
+SUMMARY:WC: R16: Winner R32-76 v Winner R32-78
+LOCATION:New York New Jersey Stadium\, East Rutherford\, New Jersey
+DESCRIPTION:Round of 16\nKick-off: 21:00 UK time\nVenue: New York New Jer
+ sey Stadium\, East Rutherford\, New Jersey\n\nUK:  BBC or ITV (BBC has 3
+  of top 4 picks). See UK TV guide.\nUS:  FOX (English) / Telemundo or Un
+ iverso (Spanish) — confirm on US TV guide\n\nBBC match centre: https:/
+ /www.bbc.co.uk/sport/football/world-cup/scores-fixtures\nUK TV guide:   
+    https://www.fanzo.com/en/tvguide/football/fifa-world-cup/10105\nUS TV
+  guide:      https://www.fanzo.com/en-us/tvguide/soccer/fifa-world-cup/1
+ 0199
+CATEGORIES:World Cup 2026\,Knockout\,Marquee
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M92-eecf4b7f59e4@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260706T010000
+DTEND;TZID=Europe/London:20260706T031500
+SUMMARY:WC: R16: Winner R32-79 v Winner R32-80
+LOCATION:Estadio Azteca\, Mexico City
+DESCRIPTION:Round of 16\nKick-off: 01:00 UK time\nVenue: Estadio Azteca\,
+  Mexico City\n\nUK:  BBC or ITV (BBC has 3 of top 4 picks). See UK TV gu
+ ide.\nUS:  FOX (English) / Telemundo or Universo (Spanish) — confirm o
+ n US TV guide\n\nBBC match centre: https://www.bbc.co.uk/sport/football/
+ world-cup/scores-fixtures\nUK TV guide:      https://www.fanzo.com/en/tv
+ guide/football/fifa-world-cup/10105\nUS TV guide:      https://www.fanzo
+ .com/en-us/tvguide/soccer/fifa-world-cup/10199
+CATEGORIES:World Cup 2026\,Knockout\,Marquee
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M93-27a277e679a2@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260706T200000
+DTEND;TZID=Europe/London:20260706T221500
+SUMMARY:WC: R16: Winner R32-83 v Winner R32-84
+LOCATION:Dallas Stadium\, Arlington\, Texas
+DESCRIPTION:Round of 16\nKick-off: 20:00 UK time\nVenue: Dallas Stadium\,
+  Arlington\, Texas\n\nUK:  BBC or ITV (BBC has 3 of top 4 picks). See UK
+  TV guide.\nUS:  FOX (English) / Telemundo or Universo (Spanish) — con
+ firm on US TV guide\n\nBBC match centre: https://www.bbc.co.uk/sport/foo
+ tball/world-cup/scores-fixtures\nUK TV guide:      https://www.fanzo.com
+ /en/tvguide/football/fifa-world-cup/10105\nUS TV guide:      https://www
+ .fanzo.com/en-us/tvguide/soccer/fifa-world-cup/10199
+CATEGORIES:World Cup 2026\,Knockout\,Marquee
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M94-df4b3c1b336e@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260707T010000
+DTEND;TZID=Europe/London:20260707T031500
+SUMMARY:WC: R16: Winner R32-81 v Winner R32-82
+LOCATION:Seattle Stadium\, Seattle
+DESCRIPTION:Round of 16\nKick-off: 01:00 UK time\nVenue: Seattle Stadium\
+ , Seattle\n\nUK:  BBC or ITV (BBC has 3 of top 4 picks). See UK TV guide
+ .\nUS:  FOX (English) / Telemundo or Universo (Spanish) — confirm on U
+ S TV guide\n\nBBC match centre: https://www.bbc.co.uk/sport/football/wor
+ ld-cup/scores-fixtures\nUK TV guide:      https://www.fanzo.com/en/tvgui
+ de/football/fifa-world-cup/10105\nUS TV guide:      https://www.fanzo.co
+ m/en-us/tvguide/soccer/fifa-world-cup/10199
+CATEGORIES:World Cup 2026\,Knockout\,Marquee
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M95-a6205bf80bf7@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260707T170000
+DTEND;TZID=Europe/London:20260707T191500
+SUMMARY:WC: R16: Winner R32-86 v Winner R32-88
+LOCATION:Atlanta Stadium\, Atlanta
+DESCRIPTION:Round of 16\nKick-off: 17:00 UK time\nVenue: Atlanta Stadium\
+ , Atlanta\n\nUK:  BBC or ITV (BBC has 3 of top 4 picks). See UK TV guide
+ .\nUS:  FOX (English) / Telemundo or Universo (Spanish) — confirm on U
+ S TV guide\n\nBBC match centre: https://www.bbc.co.uk/sport/football/wor
+ ld-cup/scores-fixtures\nUK TV guide:      https://www.fanzo.com/en/tvgui
+ de/football/fifa-world-cup/10105\nUS TV guide:      https://www.fanzo.co
+ m/en-us/tvguide/soccer/fifa-world-cup/10199
+CATEGORIES:World Cup 2026\,Knockout\,Marquee
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M96-55dd7e65c23f@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260707T210000
+DTEND;TZID=Europe/London:20260707T231500
+SUMMARY:WC: R16: Winner R32-85 v Winner R32-87
+LOCATION:BC Place Vancouver\, Vancouver
+DESCRIPTION:Round of 16\nKick-off: 21:00 UK time\nVenue: BC Place Vancouv
+ er\, Vancouver\n\nUK:  BBC or ITV (BBC has 3 of top 4 picks). See UK TV 
+ guide.\nUS:  FOX (English) / Telemundo or Universo (Spanish) — confirm
+  on US TV guide\n\nBBC match centre: https://www.bbc.co.uk/sport/footbal
+ l/world-cup/scores-fixtures\nUK TV guide:      https://www.fanzo.com/en/
+ tvguide/football/fifa-world-cup/10105\nUS TV guide:      https://www.fan
+ zo.com/en-us/tvguide/soccer/fifa-world-cup/10199
+CATEGORIES:World Cup 2026\,Knockout\,Marquee
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M97-7e8eca9f65a4@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260709T210000
+DTEND;TZID=Europe/London:20260709T231500
+SUMMARY:WC: QF: Winner R16-89 v Winner R16-90
+LOCATION:Boston Stadium\, Foxborough\, Massachusetts
+DESCRIPTION:Quarter-final\nKick-off: 21:00 UK time\nVenue: Boston Stadium
+ \, Foxborough\, Massachusetts\n\nUK:  BBC or ITV (ITV has top 2 picks + 
+ 3 of top picks). See UK TV guide.\nUS:  FOX (English) / Telemundo or Uni
+ verso (Spanish) — confirm on US TV guide\n\nBBC match centre: https://
+ www.bbc.co.uk/sport/football/world-cup/scores-fixtures\nUK TV guide:    
+   https://www.fanzo.com/en/tvguide/football/fifa-world-cup/10105\nUS TV 
+ guide:      https://www.fanzo.com/en-us/tvguide/soccer/fifa-world-cup/10
+ 199
+CATEGORIES:World Cup 2026\,Knockout\,Marquee
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M98-8ea15b2c694a@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260710T200000
+DTEND;TZID=Europe/London:20260710T221500
+SUMMARY:WC: QF: Winner R16-93 v Winner R16-94
+LOCATION:Los Angeles Stadium\, Inglewood\, California
+DESCRIPTION:Quarter-final\nKick-off: 20:00 UK time\nVenue: Los Angeles St
+ adium\, Inglewood\, California\n\nUK:  BBC or ITV (ITV has top 2 picks +
+  3 of top picks). See UK TV guide.\nUS:  FOX (English) / Telemundo or Un
+ iverso (Spanish) — confirm on US TV guide\n\nBBC match centre: https:/
+ /www.bbc.co.uk/sport/football/world-cup/scores-fixtures\nUK TV guide:   
+    https://www.fanzo.com/en/tvguide/football/fifa-world-cup/10105\nUS TV
+  guide:      https://www.fanzo.com/en-us/tvguide/soccer/fifa-world-cup/1
+ 0199
+CATEGORIES:World Cup 2026\,Knockout\,Marquee
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M99-8711d12dc69e@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260711T220000
+DTEND;TZID=Europe/London:20260712T001500
+SUMMARY:WC: QF: Winner R16-91 v Winner R16-92
+LOCATION:Miami Stadium\, Miami Gardens\, Florida
+DESCRIPTION:Quarter-final\nKick-off: 22:00 UK time\nVenue: Miami Stadium\
+ , Miami Gardens\, Florida\n\nUK:  BBC or ITV (ITV has top 2 picks + 3 of
+  top picks). See UK TV guide.\nUS:  FOX (English) / Telemundo or Univers
+ o (Spanish) — confirm on US TV guide\n\nBBC match centre: https://www.
+ bbc.co.uk/sport/football/world-cup/scores-fixtures\nUK TV guide:      ht
+ tps://www.fanzo.com/en/tvguide/football/fifa-world-cup/10105\nUS TV guid
+ e:      https://www.fanzo.com/en-us/tvguide/soccer/fifa-world-cup/10199
+CATEGORIES:World Cup 2026\,Knockout\,Marquee
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M100-8f6ecbdc4cbe@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260712T020000
+DTEND;TZID=Europe/London:20260712T041500
+SUMMARY:WC: QF: Winner R16-95 v Winner R16-96
+LOCATION:Kansas City Stadium\, Kansas City
+DESCRIPTION:Quarter-final\nKick-off: 02:00 UK time\nVenue: Kansas City St
+ adium\, Kansas City\n\nUK:  BBC or ITV (ITV has top 2 picks + 3 of top p
+ icks). See UK TV guide.\nUS:  FOX (English) / Telemundo or Universo (Spa
+ nish) — confirm on US TV guide\n\nBBC match centre: https://www.bbc.co
+ .uk/sport/football/world-cup/scores-fixtures\nUK TV guide:      https://
+ www.fanzo.com/en/tvguide/football/fifa-world-cup/10105\nUS TV guide:    
+   https://www.fanzo.com/en-us/tvguide/soccer/fifa-world-cup/10199
+CATEGORIES:World Cup 2026\,Knockout\,Marquee
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M101-e8762b748afc@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260714T200000
+DTEND;TZID=Europe/London:20260714T221500
+SUMMARY:WC: SF: Winner QF-97 v Winner QF-98
+LOCATION:Dallas Stadium\, Arlington\, Texas
+DESCRIPTION:Semi-final\nKick-off: 20:00 UK time\nVenue: Dallas Stadium\, 
+ Arlington\, Texas\n\nUK:  BBC or ITV — see UK TV guide.\nUS:  FOX (Eng
+ lish) / Telemundo or Universo (Spanish) — confirm on US TV guide\n\nBB
+ C match centre: https://www.bbc.co.uk/sport/football/world-cup/scores-fi
+ xtures\nUK TV guide:      https://www.fanzo.com/en/tvguide/football/fifa
+ -world-cup/10105\nUS TV guide:      https://www.fanzo.com/en-us/tvguide/
+ soccer/fifa-world-cup/10199
+CATEGORIES:World Cup 2026\,Knockout\,Marquee
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M102-baf8dfd1ec88@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260715T200000
+DTEND;TZID=Europe/London:20260715T221500
+SUMMARY:WC: SF: Winner QF-99 v Winner QF-100
+LOCATION:Atlanta Stadium\, Atlanta
+DESCRIPTION:Semi-final\nKick-off: 20:00 UK time\nVenue: Atlanta Stadium\,
+  Atlanta\n\nUK:  BBC or ITV — see UK TV guide.\nUS:  FOX (English) / T
+ elemundo or Universo (Spanish) — confirm on US TV guide\n\nBBC match c
+ entre: https://www.bbc.co.uk/sport/football/world-cup/scores-fixtures\nU
+ K TV guide:      https://www.fanzo.com/en/tvguide/football/fifa-world-cu
+ p/10105\nUS TV guide:      https://www.fanzo.com/en-us/tvguide/soccer/fi
+ fa-world-cup/10199
+CATEGORIES:World Cup 2026\,Knockout\,Marquee
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M103-add1297628ed@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260718T220000
+DTEND;TZID=Europe/London:20260719T001500
+SUMMARY:WC: 3rd-place: Loser SF-101 v Loser SF-102
+LOCATION:Miami Stadium\, Miami Gardens\, Florida
+DESCRIPTION:Third-place play-off\nKick-off: 22:00 UK time\nVenue: Miami S
+ tadium\, Miami Gardens\, Florida\n\nUK:  BBC or ITV — see UK TV guide.
+ \nUS:  FOX (English) / Telemundo or Universo (Spanish) — confirm on US
+  TV guide\n\nBBC match centre: https://www.bbc.co.uk/sport/football/worl
+ d-cup/scores-fixtures\nUK TV guide:      https://www.fanzo.com/en/tvguid
+ e/football/fifa-world-cup/10105\nUS TV guide:      https://www.fanzo.com
+ /en-us/tvguide/soccer/fifa-world-cup/10199
+CATEGORIES:World Cup 2026\,Knockout\,Marquee
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:M104-e8ac4d0ef69f@wc2026.oliverwakelin
+DTSTAMP:20260521T230539Z
+DTSTART;TZID=Europe/London:20260719T200000
+DTEND;TZID=Europe/London:20260719T221500
+SUMMARY:WC: FINAL: Winner SF-101 v Winner SF-102
+LOCATION:New York New Jersey Stadium\, East Rutherford\, New Jersey
+DESCRIPTION:FINAL\nKick-off: 20:00 UK time\nVenue: New York New Jersey St
+ adium\, East Rutherford\, New Jersey\n\nUK:  BBC One AND ITV1 (shared co
+ verage)\nUS:  FOX (English) / Telemundo (Spanish)\n\nBBC match centre: h
+ ttps://www.bbc.co.uk/sport/football/world-cup/scores-fixtures\nUK TV gui
+ de:      https://www.fanzo.com/en/tvguide/football/fifa-world-cup/10105\
+ nUS TV guide:      https://www.fanzo.com/en-us/tvguide/soccer/fifa-world
+ -cup/10199
+CATEGORIES:World Cup 2026\,Knockout\,Marquee
+URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
