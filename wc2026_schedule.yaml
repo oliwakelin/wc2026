@@ -7,6 +7,7 @@
 #   - kickoff_local is null because the Sky Sports source listed only UK times.
 #   - For knockout matches where teams are not yet determined, placeholders are used.
 #   - Stadium names use the FIFA-branded names from the Wikipedia "List of tournament venues" table.
+# UPDATED 2026-06-29: All 16 R32 team names resolved from final group standings.
 
 tournament:
   name: 2026 FIFA World Cup
@@ -906,6 +907,7 @@ matches:
 
   # ===== KNOCKOUT STAGE =====
   # Round of 32
+  # M73: Runner-up A (South Africa) vs Runner-up B (Canada)
   - match_id: M73
     knockout_match_no: 73
     stage: r32
@@ -915,10 +917,11 @@ matches:
     kickoff_local: null
     venue_city: Inglewood, California
     venue_stadium: Los Angeles Stadium
-    home_team: Runner-up Group A
-    away_team: Runner-up Group B
+    home_team: South Africa
+    away_team: Canada
 
   # ===== Monday, June 29 =====
+  # M74: Winner C (Brazil) vs Runner-up F (Japan)
   - match_id: M74
     knockout_match_no: 76
     stage: r32
@@ -928,8 +931,9 @@ matches:
     kickoff_local: null
     venue_city: Houston
     venue_stadium: Houston Stadium
-    home_team: Winner Group C
-    away_team: Runner-up Group F
+    home_team: Brazil
+    away_team: Japan
+  # M75: Winner E (Germany) vs 3rd D (Paraguay)
   - match_id: M75
     knockout_match_no: 74
     stage: r32
@@ -939,10 +943,11 @@ matches:
     kickoff_local: null
     venue_city: Foxborough, Massachusetts
     venue_stadium: Boston Stadium
-    home_team: Winner Group E
-    away_team: 3rd Group A/B/C/D/F
+    home_team: Germany
+    away_team: Paraguay
 
   # ===== Tuesday, June 30 =====
+  # M76: Winner F (Netherlands) vs Runner-up C (Morocco)
   - match_id: M76
     knockout_match_no: 75
     stage: r32
@@ -952,8 +957,9 @@ matches:
     kickoff_local: null
     venue_city: Guadalupe
     venue_stadium: Estadio Monterrey
-    home_team: Winner Group F
-    away_team: Runner-up Group C
+    home_team: Netherlands
+    away_team: Morocco
+  # M77: Runner-up E (Ivory Coast) vs Runner-up I (Norway)
   - match_id: M77
     knockout_match_no: 78
     stage: r32
@@ -963,8 +969,9 @@ matches:
     kickoff_local: null
     venue_city: Arlington, Texas
     venue_stadium: Dallas Stadium
-    home_team: Runner-up Group E
-    away_team: Runner-up Group I
+    home_team: Ivory Coast
+    away_team: Norway
+  # M78: Winner I (France) vs 3rd F (Sweden)
   - match_id: M78
     knockout_match_no: 77
     stage: r32
@@ -974,10 +981,11 @@ matches:
     kickoff_local: null
     venue_city: East Rutherford, New Jersey
     venue_stadium: New York New Jersey Stadium
-    home_team: Winner Group I
-    away_team: 3rd Group C/D/F/G/H
+    home_team: France
+    away_team: Sweden
 
   # ===== Wednesday, July 1 =====
+  # M79: Winner A (Mexico) vs 3rd E (Ecuador)
   - match_id: M79
     knockout_match_no: 79
     stage: r32
@@ -987,8 +995,9 @@ matches:
     kickoff_local: null
     venue_city: Mexico City
     venue_stadium: Estadio Azteca
-    home_team: Winner Group A
-    away_team: 3rd Group C/E/F/H/I
+    home_team: Mexico
+    away_team: Ecuador
+  # M80: Winner L (England) vs 3rd K (DR Congo)
   - match_id: M80
     knockout_match_no: 80
     stage: r32
@@ -998,8 +1007,9 @@ matches:
     kickoff_local: null
     venue_city: Atlanta
     venue_stadium: Atlanta Stadium
-    home_team: Winner Group L
-    away_team: 3rd Group E/H/I/J/K
+    home_team: England
+    away_team: DR Congo
+  # M81: Winner G (Belgium) vs 3rd I (Senegal)
   - match_id: M81
     knockout_match_no: 82
     stage: r32
@@ -1009,10 +1019,11 @@ matches:
     kickoff_local: null
     venue_city: Seattle
     venue_stadium: Seattle Stadium
-    home_team: Winner Group G
-    away_team: 3rd Group A/E/H/I/J
+    home_team: Belgium
+    away_team: Senegal
 
   # ===== Thursday, July 2 =====
+  # M82: Winner D (United States) vs 3rd B (Bosnia and Herzegovina)
   - match_id: M82
     knockout_match_no: 81
     stage: r32
@@ -1022,8 +1033,9 @@ matches:
     kickoff_local: null
     venue_city: Santa Clara, California
     venue_stadium: San Francisco Bay Area Stadium
-    home_team: Winner Group D
-    away_team: 3rd Group B/E/F/I/J
+    home_team: United States
+    away_team: Bosnia and Herzegovina
+  # M83: Winner H (Spain) vs Runner-up J (Austria)
   - match_id: M83
     knockout_match_no: 84
     stage: r32
@@ -1033,10 +1045,11 @@ matches:
     kickoff_local: null
     venue_city: Inglewood, California
     venue_stadium: Los Angeles Stadium
-    home_team: Winner Group H
-    away_team: Runner-up Group J
+    home_team: Spain
+    away_team: Austria
 
   # ===== Friday, July 3 =====
+  # M84: Runner-up K (Portugal) vs Runner-up L (Croatia)
   - match_id: M84
     knockout_match_no: 83
     stage: r32
@@ -1046,8 +1059,9 @@ matches:
     kickoff_local: null
     venue_city: Toronto
     venue_stadium: Toronto Stadium
-    home_team: Runner-up Group K
-    away_team: Runner-up Group L
+    home_team: Portugal
+    away_team: Croatia
+  # M85: Winner B (Switzerland) vs 3rd J (Algeria)
   - match_id: M85
     knockout_match_no: 85
     stage: r32
@@ -1057,8 +1071,9 @@ matches:
     kickoff_local: null
     venue_city: Vancouver
     venue_stadium: BC Place Vancouver
-    home_team: Winner Group B
-    away_team: 3rd Group E/F/G/I/J
+    home_team: Switzerland
+    away_team: Algeria
+  # M86: Runner-up D (Australia) vs Runner-up G (Egypt)
   - match_id: M86
     knockout_match_no: 88
     stage: r32
@@ -1068,8 +1083,9 @@ matches:
     kickoff_local: null
     venue_city: Arlington, Texas
     venue_stadium: Dallas Stadium
-    home_team: Runner-up Group D
-    away_team: Runner-up Group G
+    home_team: Australia
+    away_team: Egypt
+  # M87: Winner J (Argentina) vs Runner-up H (Cape Verde)
   - match_id: M87
     knockout_match_no: 86
     stage: r32
@@ -1079,10 +1095,11 @@ matches:
     kickoff_local: null
     venue_city: Miami Gardens, Florida
     venue_stadium: Miami Stadium
-    home_team: Winner Group J
-    away_team: Runner-up Group H
+    home_team: Argentina
+    away_team: Cape Verde
 
   # ===== Saturday, July 4 =====
+  # M88: Winner K (Colombia) vs 3rd L (Ghana)
   - match_id: M88
     knockout_match_no: 87
     stage: r32
@@ -1092,8 +1109,8 @@ matches:
     kickoff_local: null
     venue_city: Kansas City
     venue_stadium: Kansas City Stadium
-    home_team: Winner Group K
-    away_team: 3rd Group D/E/I/J/L
+    home_team: Colombia
+    away_team: Ghana
   - match_id: M89
     knockout_match_no: 90
     stage: r16
